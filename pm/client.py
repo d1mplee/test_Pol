@@ -32,7 +32,9 @@ class PolymarketClient:
                     wait = config.BACKOFF_BASE ** attempt
                     time.sleep(wait)
                     continue
-                resp.raise_for_status()
+                if 400 <= resp.status_code < 500:
+                    # 404 и прочие 4xx = "данных нет" (токен без стакана и т.п.)
+                    return None
                 time.sleep(config.INTER_REQUEST_DELAY)
                 return resp.json()
             except (requests.RequestException, ValueError) as exc:
@@ -63,7 +65,7 @@ class PolymarketClient:
         # Gamma может вернуть список либо dict с ключом data
         if isinstance(data, dict):
             data = data.get("data", [])
-        return [parse_market(m) for m in data]
+        return [parse_market(m) for m in (data or [])]
 
     def get_market_by_slug(self, slug: str) -> dict | None:
         data = self.get(config.GAMMA_BASE, "/markets", {"slug": slug})
