@@ -73,6 +73,18 @@ class PolymarketClient:
             data = data.get("data", [])
         return parse_market(data[0]) if data else None
 
+    def get_market_by_condition_id(self, condition_id: str) -> dict | None:
+        """Ищет рынок включая закрытые: Gamma по умолчанию прячет closed,
+        поэтому резолвнутые рынки надо запрашивать с closed=true отдельно."""
+        for closed in ("false", "true"):
+            data = self.get(config.GAMMA_BASE, "/markets",
+                            {"condition_ids": condition_id, "closed": closed})
+            if isinstance(data, dict):
+                data = data.get("data", [])
+            if data:
+                return parse_market(data[0])
+        return None
+
     # --- CLOB API: цены и стакан (публично) ---
     def get_price(self, token_id: str, side: str) -> float | None:
         # side: BUY (лучший bid) или SELL (лучший ask)

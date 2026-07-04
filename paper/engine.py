@@ -117,7 +117,7 @@ def settle_h2(client: PolymarketClient, journal: pd.DataFrame) -> pd.DataFrame:
     mask = (journal["strategy"] == "h2_buy_no") & (journal["status"] == "open")
     for idx in journal.index[mask]:
         slug = journal.at[idx, "slug"]
-        m = client.get_market_by_slug(slug)
+        m = client.get_market_by_condition_id(journal.at[idx, "condition_id"])
         if not m or not m.get("closed"):
             continue
         prices = m.get("outcome_prices") or []
@@ -191,7 +191,7 @@ def settle_h3(client: PolymarketClient, journal: pd.DataFrame) -> pd.DataFrame:
         bid = client.get_price(token, "BUY")
         if bid is None:
             # рынок мог зарезолвиться — пробуем по финальной цене
-            m = client.get_market_by_slug(journal.at[idx, "slug"])
+            m = client.get_market_by_condition_id(journal.at[idx, "condition_id"])
             if m and m.get("closed") and m.get("outcome_prices"):
                 bid = m["outcome_prices"][0]
             else:
@@ -237,9 +237,24 @@ def report() -> None:
     print(f"Журнал: {len(journal)} позиций "
           f"(open={(journal['status']=='open').sum()}, "
           f"settled={(journal['status']=='settled').sum()})")
+    # сводка по открытым: когда ждать расчётов
+    open_pos = journal[journal["status"] == "open"]
+    if len(open_pos):
+        ts = now_ts()
+        for strat, g in open_pos.groupby("strategy"):
+            line = f"открыто {strat}: {len(g)}"
+            if strat == "h3_meanrev":
+                ep = pd.to_numeric(g["exit_ts_planned"], errors="coerce")
+                due = (ep <= ts).sum()
+                nxt = (ep[ep > ts].min() - ts) / 60 if (ep > ts).any() else None
+                line += f"  (созрело: {due}"
+                line += f", ближайший выход через {nxt:.0f} мин)" if nxt else ")"
+            else:
+                line += "  (расчёт по мере резолва рынков — спорт обычно в день матча)"
+            print(line)
     settled = journal[journal["status"] == "settled"].copy()
     if settled.empty:
-        print("Рассчитанных позиций пока нет — жди резолвов и запускай tick.")
+        print("Рассчитанных позиций пока нет — жди резолвов, tick рассчитает их сам.")
         return
     settled["pnl_net"] = settled["pnl_net"].astype(float)
     for strat, g in settled.groupby("strategy"):
