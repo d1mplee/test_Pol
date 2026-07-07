@@ -87,14 +87,17 @@ def open_h2_positions(client: PolymarketClient, journal: pd.DataFrame,
             continue
         if not SPORTS_MICRO.search(str(m["slug"])):
             continue
-        yes_bid = client.get_price(m["yes_token_id"], "BUY")
-        yes_ask = client.get_price(m["yes_token_id"], "SELL")
-        if not yes_bid or not yes_ask or (yes_ask - yes_bid) > H2_MAX_SPREAD:
-            continue
-        implied = (yes_bid + yes_ask) / 2
-        if not (H2_MIN <= implied <= H2_MAX):
-            continue
-        no_ask = client.get_price(m["no_token_id"], "SELL")
+        try:
+            yes_bid = client.get_price(m["yes_token_id"], "BUY")
+            yes_ask = client.get_price(m["yes_token_id"], "SELL")
+            if not yes_bid or not yes_ask or (yes_ask - yes_bid) > H2_MAX_SPREAD:
+                continue
+            implied = (yes_bid + yes_ask) / 2
+            if not (H2_MIN <= implied <= H2_MAX):
+                continue
+            no_ask = client.get_price(m["no_token_id"], "SELL")
+        except RuntimeError:
+            continue  # сеть моргнула — пропускаем рынок, не роняем tick
         if not no_ask or no_ask >= 0.99:
             continue
         fee = costs.taker_fee_per_share(no_ask, "sports")
@@ -117,7 +120,10 @@ def settle_h2(client: PolymarketClient, journal: pd.DataFrame) -> pd.DataFrame:
     mask = (journal["strategy"] == "h2_buy_no") & (journal["status"] == "open")
     for idx in journal.index[mask]:
         slug = journal.at[idx, "slug"]
-        m = client.get_market_by_condition_id(journal.at[idx, "condition_id"])
+        try:
+            m = client.get_market_by_condition_id(journal.at[idx, "condition_id"])
+        except RuntimeError:
+            continue  # сеть моргнула — не роняем весь tick, попробуем в следующий
         if not m or not m.get("closed"):
             continue
         prices = m.get("outcome_prices") or []
@@ -188,14 +194,17 @@ def settle_h3(client: PolymarketClient, journal: pd.DataFrame) -> pd.DataFrame:
             continue
         token = journal.at[idx, "token_id"]
         # выходим по реальному bid (продаём как taker)
-        bid = client.get_price(token, "BUY")
-        if bid is None:
-            # рынок мог зарезолвиться — пробуем по финальной цене
-            m = client.get_market_by_condition_id(journal.at[idx, "condition_id"])
-            if m and m.get("closed") and m.get("outcome_prices"):
-                bid = m["outcome_prices"][0]
-            else:
-                continue
+        try:
+            bid = client.get_price(token, "BUY")
+            if bid is None:
+                # рынок мог зарезолвиться — пробуем по финальной цене
+                m = client.get_market_by_condition_id(journal.at[idx, "condition_id"])
+                if m and m.get("closed") and m.get("outcome_prices"):
+                    bid = m["outcome_prices"][0]
+                else:
+                    continue
+        except RuntimeError:
+            continue  # сеть моргнула — попробуем в следующий tick
         entry = float(journal.at[idx, "entry_price"])
         fee_in = float(journal.at[idx, "fee"])
         fee_out = costs.taker_fee_per_share(bid, None) if 0 < bid < 1 else 0.0
@@ -207,7 +216,10 @@ def settle_h3(client: PolymarketClient, journal: pd.DataFrame) -> pd.DataFrame:
 
 
 # ------------------------------------------------------------------- tick
-def tick(max_new_h2: int = 15, max_new_h3: int = 10) -> None:
+# H3 ВЫКЛЮЧЕН по итогам paper-теста 2026-07-07: 265 сделок, -7.7ц/акцию,
+# winrate 17%, t=-4.5 — статистически подтверждённый убыток. Легаси-позиции
+# продолжают рассчитываться через settle_h3, новые не открываются.
+def tick(max_new_h2: int = 15, max_new_h3: int = 0) -> None:
     client = PolymarketClient()
     journal = load_journal()
     print(f"[tick {datetime.now(timezone.utc):%Y-%m-%d %H:%M}Z] "

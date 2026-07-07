@@ -18,14 +18,14 @@ def main() -> None:
 
     t = sub.add_parser("tick")
     t.add_argument("--max-h2", type=int, default=15)
-    t.add_argument("--max-h3", type=int, default=10)
+    t.add_argument("--max-h3", type=int, default=0)  # H3 выключен (см. engine.tick)
 
     sub.add_parser("report")
 
     lp = sub.add_parser("loop")
     lp.add_argument("--minutes", type=int, default=30)
     lp.add_argument("--max-h2", type=int, default=15)
-    lp.add_argument("--max-h3", type=int, default=10)
+    lp.add_argument("--max-h3", type=int, default=0)  # H3 выключен
 
     a = ap.parse_args()
     if a.cmd == "tick":
