@@ -1,0 +1,42 @@
+# H5-вахта: непрерывный скан комбинаторного арбитража блоками по ~5.5 часа
+# (лимит GitHub на джоб — 6 часов). Кроны сдвинуты так, чтобы блоки шли
+# почти встык и покрывали сутки, включая ночной MLB.
+name: h5-watch
+
+on:
+  schedule:
+    - cron: "5 0,6,12,18 * * *"   # 4 блока по 5.5ч = ~22ч покрытия в сутки
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - run: pip install requests pandas numpy
+
+      - name: watch 5.5h
+        run: timeout 19500 python -u -X utf8 -m analysis.h5_combinatorial --watch 60 || true
+
+      - name: commit violations log
+        run: |
+          git config user.name "paper-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -f data/h5_violations.csv 2>/dev/null || true
+          git diff --cached --quiet && echo "нет изменений" && exit 0
+          git commit -m "h5: $(date -u +'%Y-%m-%d %H:%MZ')"
+          for i in 1 2 3; do
+            git push && exit 0
+            git pull --rebase && sleep 5
+          done
+          git push

@@ -266,7 +266,9 @@ def append_csv(rows: list[dict]) -> None:
 
 def scan_once(cache: dict | None = None, verbose: bool = True) -> list[dict]:
     """cache (для watch-режима) хранит pairs/toks между сканами: список матчей
-    обновляется раз в ~10 минут, стаканы — каждый скан."""
+    обновляется раз в ~10 минут, стаканы — каждый скан. Повторные нарушения
+    одной и той же пары в stdout не дублируются (в CSV пишутся все —
+    по повторам меряем время жизни); net>0 печатается всегда."""
     now = time.time()
     if not cache or now - cache.get("ts", 0) > 600:
         events = fetch_game_events()
@@ -288,7 +290,12 @@ def scan_once(cache: dict | None = None, verbose: bool = True) -> list[dict]:
     if verbose:
         print(f"стаканов получено: {len(books)}, нарушений: {len(rows)} "
               f"(из них net>0: {sum(1 for r in rows if r['net_gap'] > 0)})")
+        seen = cache.setdefault("seen", set()) if cache is not None else set()
         for r in rows:
+            key = (r["strong_slug"], r["weak_slug"])
+            if key in seen and r["net_gap"] <= 0:
+                continue
+            seen.add(key)
             print(f"  [{r['check']}] gross={r['gross_gap']:+.3f} net={r['net_gap']:+.3f} "
                   f"size={r['exec_size']:.0f}  {r['strong_slug']}  >  {r['weak_slug']}")
     return rows

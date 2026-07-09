@@ -1,0 +1,4 @@
+ts,event_slug,check,strong_slug,weak_slug,bid_strong,ask_weak,gross_gap,net_gap,exec_size
+2026-07-08T14:12:38+00:00,mlb-atl-cws-2026-06-11,cover_ladder,mlb-atl-cws-2026-06-11-spread-away-2pt5,mlb-atl-cws-2026-06-11-spread-away-1pt5,0.31,0.3,0.01,-0.005,14.3
+2026-07-08T14:17:16+00:00,mlb-atl-cws-2026-06-11,cover_ladder,mlb-atl-cws-2026-06-11-spread-away-2pt5,mlb-atl-cws-2026-06-11-spread-away-1pt5,0.31,0.3,0.01,-0.005,14.3
+2026-07-08T18:38:24+00:00,atp-vukic-broady-2026-07-06,over_ladder,atp-vukic-broady-2026-07-06-match-total-23pt5,atp-vukic-broady-2026-07-06-match-total-22pt5,0.02,0.01,0.01,0.007,250.0

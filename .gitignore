@@ -1,4 +1,7 @@
-data/
+data/*
+# журналы сделок/нарушений — публичный трек-рекорд, коммитятся
+!data/paper_positions.csv
+!data/h5_violations.csv
 output/
 __pycache__/
 *.pyc
