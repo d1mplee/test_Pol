@@ -2,3 +2,15 @@ ts,event_slug,check,strong_slug,weak_slug,bid_strong,ask_weak,gross_gap,net_gap,
 2026-07-08T14:12:38+00:00,mlb-atl-cws-2026-06-11,cover_ladder,mlb-atl-cws-2026-06-11-spread-away-2pt5,mlb-atl-cws-2026-06-11-spread-away-1pt5,0.31,0.3,0.01,-0.005,14.3
 2026-07-08T14:17:16+00:00,mlb-atl-cws-2026-06-11,cover_ladder,mlb-atl-cws-2026-06-11-spread-away-2pt5,mlb-atl-cws-2026-06-11-spread-away-1pt5,0.31,0.3,0.01,-0.005,14.3
 2026-07-08T18:38:24+00:00,atp-vukic-broady-2026-07-06,over_ladder,atp-vukic-broady-2026-07-06-match-total-23pt5,atp-vukic-broady-2026-07-06-match-total-22pt5,0.02,0.01,0.01,0.007,250.0
+2026-07-09T19:55:27+00:00,mlb-nyy-tb-2026-07-09,spread_implies_ml,mlb-nyy-tb-2026-07-09-spread-home-1pt5,mlb-nyy-tb-2026-07-09,0.01,0.001,0.009,0.0079,5.0
+2026-07-09T19:56:32+00:00,mlb-nyy-tb-2026-07-09,spread_implies_ml,mlb-nyy-tb-2026-07-09-spread-home-1pt5,mlb-nyy-tb-2026-07-09,0.01,0.001,0.009,0.0079,5.0
+2026-07-09T19:57:38+00:00,mlb-nyy-tb-2026-07-09,spread_implies_ml,mlb-nyy-tb-2026-07-09-spread-home-1pt5,mlb-nyy-tb-2026-07-09,0.01,0.001,0.009,0.0079,5.0
+2026-07-09T22:00:43+00:00,fifwc-fra-mar-2026-07-09-total-corners,over_ladder,fifwc-fra-mar-2026-07-09-corners-total-11pt5,fifwc-fra-mar-2026-07-09-corners-total-10pt5,0.011,0.01,0.001,-0.0011,5.0
+2026-07-10T00:51:39+00:00,mlb-laa-tex-2026-07-09,over_ladder,mlb-laa-tex-2026-07-09-total-8pt5,mlb-laa-tex-2026-07-09-total-7pt5,0.58,0.56,0.02,0.005,5.0
+2026-07-10T00:57:02+00:00,mlb-sea-mia-2026-07-09,spread_implies_ml,mlb-sea-mia-2026-07-09-spread-away-1pt5,mlb-sea-mia-2026-07-09,0.01,0.009,0.001,-0.0009,10.0
+2026-07-10T00:58:05+00:00,mlb-sea-mia-2026-07-09,spread_implies_ml,mlb-sea-mia-2026-07-09-spread-away-1pt5,mlb-sea-mia-2026-07-09,0.01,0.009,0.001,-0.0009,10.0
+2026-07-10T00:59:08+00:00,mlb-sea-mia-2026-07-09,spread_implies_ml,mlb-sea-mia-2026-07-09-spread-away-1pt5,mlb-sea-mia-2026-07-09,0.01,0.002,0.008,0.0068,5.5
+2026-07-10T01:00:11+00:00,mlb-sea-mia-2026-07-09,spread_implies_ml,mlb-sea-mia-2026-07-09-spread-away-1pt5,mlb-sea-mia-2026-07-09,0.01,0.009,0.001,-0.0009,10.0
+2026-07-10T01:01:15+00:00,mlb-sea-mia-2026-07-09,spread_implies_ml,mlb-sea-mia-2026-07-09-spread-away-1pt5,mlb-sea-mia-2026-07-09,0.01,0.005,0.005,0.0035,20.5
+2026-07-10T01:02:18+00:00,mlb-sea-mia-2026-07-09,spread_implies_ml,mlb-sea-mia-2026-07-09-spread-away-1pt5,mlb-sea-mia-2026-07-09,0.01,0.008,0.002,0.0002,4.7
+2026-07-10T01:10:49+00:00,mlb-oak-det-2026-07-09,spread_implies_ml,mlb-oak-det-2026-07-09-spread-away-1pt5,mlb-oak-det-2026-07-09,0.01,0.009,0.001,-0.0009,5.0
