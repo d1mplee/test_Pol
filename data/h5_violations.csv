@@ -14,3 +14,10 @@ ts,event_slug,check,strong_slug,weak_slug,bid_strong,ask_weak,gross_gap,net_gap,
 2026-07-10T01:01:15+00:00,mlb-sea-mia-2026-07-09,spread_implies_ml,mlb-sea-mia-2026-07-09-spread-away-1pt5,mlb-sea-mia-2026-07-09,0.01,0.005,0.005,0.0035,20.5
 2026-07-10T01:02:18+00:00,mlb-sea-mia-2026-07-09,spread_implies_ml,mlb-sea-mia-2026-07-09-spread-away-1pt5,mlb-sea-mia-2026-07-09,0.01,0.008,0.002,0.0002,4.7
 2026-07-10T01:10:49+00:00,mlb-oak-det-2026-07-09,spread_implies_ml,mlb-oak-det-2026-07-09-spread-away-1pt5,mlb-oak-det-2026-07-09,0.01,0.009,0.001,-0.0009,5.0
+2026-07-10T04:13:11+00:00,mlb-col-sf-2026-07-09,over_ladder,mlb-col-sf-2026-07-09-total-9pt5,mlb-col-sf-2026-07-09-total-8pt5,0.57,0.38,0.19,0.175,10.0
+2026-07-10T08:48:44+00:00,val-fpx-te-2026-07-10,over_ladder,val-fpx-te-2026-07-10-game1-round-total-21pt5,val-fpx-te-2026-07-10-game1-round-total-19pt5,0.02,0.01,0.01,0.007,10.1
+2026-07-10T08:48:44+00:00,val-fpx-te-2026-07-10,over_ladder,val-fpx-te-2026-07-10-game1-round-total-21pt5,val-fpx-te-2026-07-10-game1-round-total-20pt5,0.02,0.01,0.01,0.007,10.1
+2026-07-10T08:49:49+00:00,val-fpx-te-2026-07-10,over_ladder,val-fpx-te-2026-07-10-game1-round-total-21pt5,val-fpx-te-2026-07-10-game1-round-total-19pt5,0.02,0.01,0.01,0.007,10.1
+2026-07-10T08:49:49+00:00,val-fpx-te-2026-07-10,over_ladder,val-fpx-te-2026-07-10-game1-round-total-21pt5,val-fpx-te-2026-07-10-game1-round-total-20pt5,0.02,0.01,0.01,0.007,10.1
+2026-07-10T08:50:53+00:00,val-fpx-te-2026-07-10,over_ladder,val-fpx-te-2026-07-10-game1-round-total-21pt5,val-fpx-te-2026-07-10-game1-round-total-19pt5,0.02,0.01,0.01,0.007,10.1
+2026-07-10T08:50:53+00:00,val-fpx-te-2026-07-10,over_ladder,val-fpx-te-2026-07-10-game1-round-total-21pt5,val-fpx-te-2026-07-10-game1-round-total-20pt5,0.02,0.01,0.01,0.007,10.1
