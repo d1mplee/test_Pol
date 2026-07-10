@@ -21,3 +21,11 @@ ts,event_slug,check,strong_slug,weak_slug,bid_strong,ask_weak,gross_gap,net_gap,
 2026-07-10T08:49:49+00:00,val-fpx-te-2026-07-10,over_ladder,val-fpx-te-2026-07-10-game1-round-total-21pt5,val-fpx-te-2026-07-10-game1-round-total-20pt5,0.02,0.01,0.01,0.007,10.1
 2026-07-10T08:50:53+00:00,val-fpx-te-2026-07-10,over_ladder,val-fpx-te-2026-07-10-game1-round-total-21pt5,val-fpx-te-2026-07-10-game1-round-total-19pt5,0.02,0.01,0.01,0.007,10.1
 2026-07-10T08:50:53+00:00,val-fpx-te-2026-07-10,over_ladder,val-fpx-te-2026-07-10-game1-round-total-21pt5,val-fpx-te-2026-07-10-game1-round-total-20pt5,0.02,0.01,0.01,0.007,10.1
+2026-07-10T13:12:42+00:00,chi-sha-yun-2026-07-10-more-markets,over_ladder,chi-sha-yun-2026-07-10-total-1pt5,chi-sha-yun-2026-07-10-total-0pt5,0.999,0.995,0.004,0.0034,200.0
+2026-07-10T13:12:42+00:00,chi-sha-yun-2026-07-10-more-markets,over_ladder,chi-sha-yun-2026-07-10-total-2pt5,chi-sha-yun-2026-07-10-total-0pt5,0.999,0.995,0.004,0.0034,200.0
+2026-07-10T13:12:42+00:00,chi-sha-yun-2026-07-10-more-markets,over_ladder,chi-sha-yun-2026-07-10-total-3pt5,chi-sha-yun-2026-07-10-total-0pt5,0.999,0.995,0.004,0.0034,200.0
+2026-07-10T13:12:42+00:00,chi-sha-yun-2026-07-10-more-markets,over_ladder,chi-sha-yun-2026-07-10-total-4pt5,chi-sha-yun-2026-07-10-total-0pt5,0.999,0.995,0.004,0.0034,200.0
+2026-07-10T14:46:11+00:00,atp-fery-zverev-2026-07-10,over_ladder,atp-fery-zverev-2026-07-10-match-total-38pt5,atp-fery-zverev-2026-07-10-match-total-36pt5,0.04,0.03,0.01,0.0032,132.6
+2026-07-10T14:47:15+00:00,atp-fery-zverev-2026-07-10,over_ladder,atp-fery-zverev-2026-07-10-match-total-38pt5,atp-fery-zverev-2026-07-10-match-total-36pt5,0.04,0.03,0.01,0.0032,0.3
+2026-07-10T14:50:28+00:00,atp-gaston-moelle-2026-07-10,over_ladder,atp-gaston-moelle-2026-07-10-match-total-22pt5,atp-gaston-moelle-2026-07-10-match-total-21pt5,0.49,0.45,0.04,0.025,4194.6
+2026-07-10T15:04:46+00:00,cs2-b8-vp-2026-07-10,over_ladder,cs2-b8-vp-2026-07-10-game2-round-total-27pt5,cs2-b8-vp-2026-07-10-game2-round-total-21pt5,0.01,0.001,0.009,0.0079,5.0
