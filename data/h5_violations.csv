@@ -29,3 +29,17 @@ ts,event_slug,check,strong_slug,weak_slug,bid_strong,ask_weak,gross_gap,net_gap,
 2026-07-10T14:47:15+00:00,atp-fery-zverev-2026-07-10,over_ladder,atp-fery-zverev-2026-07-10-match-total-38pt5,atp-fery-zverev-2026-07-10-match-total-36pt5,0.04,0.03,0.01,0.0032,0.3
 2026-07-10T14:50:28+00:00,atp-gaston-moelle-2026-07-10,over_ladder,atp-gaston-moelle-2026-07-10-match-total-22pt5,atp-gaston-moelle-2026-07-10-match-total-21pt5,0.49,0.45,0.04,0.025,4194.6
 2026-07-10T15:04:46+00:00,cs2-b8-vp-2026-07-10,over_ladder,cs2-b8-vp-2026-07-10-game2-round-total-27pt5,cs2-b8-vp-2026-07-10-game2-round-total-21pt5,0.01,0.001,0.009,0.0079,5.0
+2026-07-10T20:55:30+00:00,fifwc-esp-bel-2026-07-10-total-corners,over_ladder,fifwc-esp-bel-2026-07-10-corners-total-10pt5,fifwc-esp-bel-2026-07-10-corners-total-9pt5,0.01,0.009,0.001,-0.0009,100.0
+2026-07-10T21:29:48+00:00,atp-galarne-milavsk-2026-07-10,over_ladder,atp-galarne-milavsk-2026-07-10-match-total-22pt5,atp-galarne-milavsk-2026-07-10-match-total-21pt5,0.06,0.01,0.05,0.0434,4.1
+2026-07-11T00:48:58+00:00,mlb-phi-det-2026-07-10,spread_implies_ml,mlb-phi-det-2026-07-10-spread-away-1pt5,mlb-phi-det-2026-07-10,0.01,0.009,0.001,-0.0009,15.0
+2026-07-11T00:50:02+00:00,mlb-phi-det-2026-07-10,spread_implies_ml,mlb-phi-det-2026-07-10-spread-away-1pt5,mlb-phi-det-2026-07-10,0.01,0.007,0.003,0.0013,15.0
+2026-07-11T00:51:06+00:00,mlb-phi-det-2026-07-10,spread_implies_ml,mlb-phi-det-2026-07-10-spread-away-1pt5,mlb-phi-det-2026-07-10,0.01,0.009,0.001,-0.0009,15.0
+2026-07-11T00:52:16+00:00,mlb-phi-det-2026-07-10,spread_implies_ml,mlb-phi-det-2026-07-10-spread-away-1pt5,mlb-phi-det-2026-07-10,0.01,0.002,0.008,0.0068,15.0
+2026-07-11T00:53:19+00:00,mlb-phi-det-2026-07-10,spread_implies_ml,mlb-phi-det-2026-07-10-spread-away-1pt5,mlb-phi-det-2026-07-10,0.01,0.002,0.008,0.0068,15.0
+2026-07-11T00:54:23+00:00,mlb-phi-det-2026-07-10,spread_implies_ml,mlb-phi-det-2026-07-10-spread-away-1pt5,mlb-phi-det-2026-07-10,0.01,0.002,0.008,0.0068,15.0
+2026-07-11T00:55:26+00:00,mlb-phi-det-2026-07-10,spread_implies_ml,mlb-phi-det-2026-07-10-spread-away-1pt5,mlb-phi-det-2026-07-10,0.01,0.005,0.005,0.0035,10.0
+2026-07-11T00:56:30+00:00,mlb-phi-det-2026-07-10,spread_implies_ml,mlb-phi-det-2026-07-10-spread-away-1pt5,mlb-phi-det-2026-07-10,0.01,0.002,0.008,0.0068,10.0
+2026-07-11T00:57:33+00:00,mlb-phi-det-2026-07-10,spread_implies_ml,mlb-phi-det-2026-07-10-spread-away-1pt5,mlb-phi-det-2026-07-10,0.01,0.002,0.008,0.0068,10.0
+2026-07-11T00:58:37+00:00,mlb-phi-det-2026-07-10,spread_implies_ml,mlb-phi-det-2026-07-10-spread-away-1pt5,mlb-phi-det-2026-07-10,0.01,0.001,0.009,0.0079,10.0
+2026-07-11T00:59:41+00:00,mlb-phi-det-2026-07-10,spread_implies_ml,mlb-phi-det-2026-07-10-spread-away-1pt5,mlb-phi-det-2026-07-10,0.01,0.001,0.009,0.0079,10.0
+2026-07-11T01:00:45+00:00,mlb-phi-det-2026-07-10,spread_implies_ml,mlb-phi-det-2026-07-10-spread-away-1pt5,mlb-phi-det-2026-07-10,0.01,0.001,0.009,0.0079,10.0
