@@ -104,3 +104,13 @@ ts,event_slug,check,strong_slug,weak_slug,bid_strong,ask_weak,gross_gap,net_gap,
 2026-07-11T23:06:46+00:00,mlb-bos-nym-2026-07-11,spread_implies_ml,mlb-bos-nym-2026-07-11-spread-home-1pt5,mlb-bos-nym-2026-07-11,0.01,0.009,0.001,-0.0009,10.0
 2026-07-11T23:06:46+00:00,mlb-sea-tb-2026-07-11,spread_implies_ml,mlb-sea-tb-2026-07-11-spread-away-1pt5,mlb-sea-tb-2026-07-11,0.01,0.001,0.009,0.0079,10.0
 2026-07-11T23:07:50+00:00,mlb-bos-nym-2026-07-11,spread_implies_ml,mlb-bos-nym-2026-07-11-spread-home-1pt5,mlb-bos-nym-2026-07-11,0.01,0.002,0.008,0.0068,10.0
+2026-07-12T03:32:07+00:00,mlb-ari-lad-2026-07-11,spread_implies_ml,mlb-ari-lad-2026-07-11-spread-home-1pt5,mlb-ari-lad-2026-07-11,0.01,0.007,0.003,0.0013,10.0
+2026-07-12T03:38:24+00:00,mlb-ari-lad-2026-07-11,spread_implies_ml,mlb-ari-lad-2026-07-11-spread-home-1pt5,mlb-ari-lad-2026-07-11,0.011,0.006,0.005,0.0033,20.0
+2026-07-12T03:39:27+00:00,mlb-ari-lad-2026-07-11,spread_implies_ml,mlb-ari-lad-2026-07-11-spread-home-1pt5,mlb-ari-lad-2026-07-11,0.011,0.006,0.005,0.0033,20.0
+2026-07-12T03:40:30+00:00,mlb-ari-lad-2026-07-11,spread_implies_ml,mlb-ari-lad-2026-07-11-spread-home-1pt5,mlb-ari-lad-2026-07-11,0.011,0.006,0.005,0.0033,500.0
+2026-07-12T03:41:32+00:00,mlb-ari-lad-2026-07-11,spread_implies_ml,mlb-ari-lad-2026-07-11-spread-home-1pt5,mlb-ari-lad-2026-07-11,0.01,0.006,0.004,0.0024,10.0
+2026-07-12T03:42:42+00:00,mlb-ari-lad-2026-07-11,spread_implies_ml,mlb-ari-lad-2026-07-11-spread-home-1pt5,mlb-ari-lad-2026-07-11,0.011,0.002,0.009,0.0077,500.0
+2026-07-12T03:43:45+00:00,mlb-ari-lad-2026-07-11,spread_implies_ml,mlb-ari-lad-2026-07-11-spread-home-1pt5,mlb-ari-lad-2026-07-11,0.011,0.002,0.009,0.0077,500.0
+2026-07-12T03:44:48+00:00,mlb-ari-lad-2026-07-11,spread_implies_ml,mlb-ari-lad-2026-07-11-spread-home-1pt5,mlb-ari-lad-2026-07-11,0.01,0.002,0.008,0.0068,10.0
+2026-07-12T03:45:51+00:00,mlb-ari-lad-2026-07-11,spread_implies_ml,mlb-ari-lad-2026-07-11-spread-home-1pt5,mlb-ari-lad-2026-07-11,0.011,0.002,0.009,0.0077,500.0
+2026-07-12T03:46:54+00:00,mlb-ari-lad-2026-07-11,spread_implies_ml,mlb-ari-lad-2026-07-11-spread-home-1pt5,mlb-ari-lad-2026-07-11,0.01,0.002,0.008,0.0068,510.0
