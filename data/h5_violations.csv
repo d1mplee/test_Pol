@@ -114,3 +114,12 @@ ts,event_slug,check,strong_slug,weak_slug,bid_strong,ask_weak,gross_gap,net_gap,
 2026-07-12T03:44:48+00:00,mlb-ari-lad-2026-07-11,spread_implies_ml,mlb-ari-lad-2026-07-11-spread-home-1pt5,mlb-ari-lad-2026-07-11,0.01,0.002,0.008,0.0068,10.0
 2026-07-12T03:45:51+00:00,mlb-ari-lad-2026-07-11,spread_implies_ml,mlb-ari-lad-2026-07-11-spread-home-1pt5,mlb-ari-lad-2026-07-11,0.011,0.002,0.009,0.0077,500.0
 2026-07-12T03:46:54+00:00,mlb-ari-lad-2026-07-11,spread_implies_ml,mlb-ari-lad-2026-07-11-spread-home-1pt5,mlb-ari-lad-2026-07-11,0.01,0.002,0.008,0.0068,510.0
+2026-07-12T13:50:16+00:00,val-100t1-nrg-2026-07-12,over_ladder,val-100t1-nrg-2026-07-12-game1-round-total-21pt5,val-100t1-nrg-2026-07-12-game1-round-total-20pt5,0.45,0.41,0.04,0.025,60.0
+2026-07-12T14:55:55+00:00,cs2-qua1-tlr-2026-07-12,over_ladder,cs2-qua1-tlr-2026-07-12-game1-round-total-30pt5,cs2-qua1-tlr-2026-07-12-game1-round-total-27pt5,0.02,0.01,0.01,0.007,7.6
+2026-07-12T16:16:23+00:00,atp-sinner-zverev-2026-07-12,over_ladder,atp-sinner-zverev-2026-07-12-match-total-38pt5,atp-sinner-zverev-2026-07-12-match-total-36pt5,0.78,0.75,0.03,0.015,3.2
+2026-07-12T17:50:12+00:00,mlb-mil-pit-2026-07-12,spread_implies_ml,mlb-mil-pit-2026-07-12-spread-away-1pt5,mlb-mil-pit-2026-07-12,0.01,0.006,0.004,0.0024,25.0
+2026-07-12T17:51:16+00:00,mlb-mil-pit-2026-07-12,spread_implies_ml,mlb-mil-pit-2026-07-12-spread-away-1pt5,mlb-mil-pit-2026-07-12,0.01,0.008,0.002,0.0002,25.0
+2026-07-12T17:52:20+00:00,mlb-mil-pit-2026-07-12,spread_implies_ml,mlb-mil-pit-2026-07-12-spread-away-1pt5,mlb-mil-pit-2026-07-12,0.01,0.008,0.002,0.0002,25.0
+2026-07-12T17:53:24+00:00,mlb-mil-pit-2026-07-12,spread_implies_ml,mlb-mil-pit-2026-07-12-spread-away-1pt5,mlb-mil-pit-2026-07-12,0.01,0.007,0.003,0.0013,25.0
+2026-07-12T17:54:28+00:00,mlb-mil-pit-2026-07-12,spread_implies_ml,mlb-mil-pit-2026-07-12-spread-away-1pt5,mlb-mil-pit-2026-07-12,0.01,0.007,0.003,0.0013,25.0
+2026-07-12T17:55:32+00:00,mlb-mil-pit-2026-07-12,spread_implies_ml,mlb-mil-pit-2026-07-12-spread-away-1pt5,mlb-mil-pit-2026-07-12,0.01,0.007,0.003,0.0013,25.0
