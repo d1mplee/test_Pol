@@ -26,7 +26,7 @@ jobs:
       - run: pip install requests pandas numpy
 
       - name: watch 5.5h
-        run: timeout 19500 python -u -X utf8 -m analysis.h5_combinatorial --watch 60 || true
+        run: timeout 19500 python -u -X utf8 -m analysis.h5_combinatorial --watch 20 || true
 
       - name: commit violations log
         run: |
@@ -35,8 +35,11 @@ jobs:
           git add -f data/h5_violations.csv 2>/dev/null || true
           git diff --cached --quiet && echo "нет изменений" && exit 0
           git commit -m "h5: $(date -u +'%Y-%m-%d %H:%MZ')"
-          for i in 1 2 3; do
+          for i in 1 2 3 4 5 6; do
             git push && exit 0
-            git pull --rebase && sleep 5
+            echo "push #$i отклонён, подтягиваю и повторяю"
+            git fetch origin main
+            git rebase --autostash origin/main || { git rebase --abort; exit 1; }
+            sleep $((5 * i))
           done
           git push

@@ -39,8 +39,11 @@ jobs:
           git add -f data/paper_positions.csv
           git diff --cached --quiet && echo "нет изменений" && exit 0
           git commit -m "tick: $(date -u +'%Y-%m-%d %H:%MZ')"
-          for i in 1 2 3; do
+          for i in 1 2 3 4 5; do
             git push && exit 0
-            git pull --rebase && sleep 5
+            echo "push #$i отклонён, подтягиваю и повторяю"
+            git fetch origin main
+            git rebase --autostash origin/main || { git rebase --abort; exit 1; }
+            sleep $((5 * i))
           done
           git push

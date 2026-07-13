@@ -18,9 +18,19 @@
 set-handicap-home-1pt5 и т.п. Оценка — напрямую по живым стаканам CLOB
 (батч POST /books), Gamma используется только для списка рынков.
 
+Live-верификация: для каждой находки с net_gap>0 через VERIFY_DELAY секунд
+стаканы перечитываются повторно (still_violated — держится ли разрыв) и
+проверяется acceptingOrders обеих ног через Gamma (accepting_both) — отсеивает
+фантомы на приостановленных live-рынках. Оба поля идут в CSV; экономически
+значим только эпизод с still_violated=True и accepting_both=True.
+
 Запуск (из корня проекта):
   python -m analysis.h5_combinatorial              # один скан
-  python -m analysis.h5_combinatorial --watch 60   # скан каждые 60с (Ctrl+C)
+  python -m analysis.h5_combinatorial --watch 20   # скан каждые 20с (Ctrl+C)
+
+Запросы к Gamma/CLOB идут параллельно (ThreadPoolExecutor, сессия с keep-alive):
+полный скан (~450 токенов, обновление списка матчей) укладывается в ~40с,
+скан со свежим кэшем списка матчей — в ~20с.
 """
 from __future__ import annotations
 
@@ -29,6 +39,7 @@ import csv
 import json
 import re
 import time
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -39,6 +50,7 @@ from pm.costs import taker_fee_per_share
 
 GAMMA = "https://gamma-api.polymarket.com"
 CLOB = "https://clob.polymarket.com"
+_SESSION = requests.Session()  # переиспользуем TCP-соединения между запросами
 
 GAME_SLUG = re.compile(r"-\d{4}-\d{2}-\d{2}")
 # лестницы: stem = всё до числовой линии в конце слага
@@ -50,33 +62,38 @@ VIOLATIONS_CSV = Path(config.DATA_DIR) / "h5_violations.csv"
 COLUMNS = [
     "ts", "event_slug", "check", "strong_slug", "weak_slug",
     "bid_strong", "ask_weak", "gross_gap", "net_gap", "exec_size",
+    "verified_gross_gap", "still_violated", "accepting_both",
 ]
+VERIFY_DELAY = 5  # сек — пауза перед повторным чтением стакана для net>0 находок
 
 
 # ---------------------------------------------------------------- сбор данных
 
+def _fetch_events_page(offset: int, per_page: int) -> list[dict]:
+    for attempt in range(3):  # глубокие offset'ы Gamma периодически таймаутят
+        try:
+            r = _SESSION.get(
+                f"{GAMMA}/events",
+                params={"closed": "false", "limit": per_page, "offset": offset,
+                        "order": "volume", "ascending": "false"},
+                timeout=60,
+            )
+            r.raise_for_status()
+            return r.json()
+        except requests.RequestException:
+            time.sleep(2 * (attempt + 1))
+    return []
+
+
 def fetch_game_events(pages: int = 15, per_page: int = 100) -> list[dict]:
-    """Открытые события-матчи (в слаге есть дата, 2+ живых рынка)."""
+    """Открытые события-матчи (в слаге есть дата, 2+ живых рынка).
+    Страницы независимы (сортировка по volume не меняется между вызовами
+    в пределах одного скана) — тянем параллельно, это было узким местом
+    (~190с последовательно на 15 страниц)."""
     out = []
-    for i in range(pages):
-        batch = None
-        for attempt in range(3):  # глубокие offset'ы Gamma периодически таймаутят
-            try:
-                r = requests.get(
-                    f"{GAMMA}/events",
-                    params={"closed": "false", "limit": per_page, "offset": i * per_page,
-                            "order": "volume", "ascending": "false"},
-                    timeout=60,
-                )
-                r.raise_for_status()
-                batch = r.json()
-                break
-            except requests.RequestException:
-                time.sleep(2 * (attempt + 1))
-        if not batch:
-            break
-        out.extend(batch)
-        time.sleep(0.15)
+    with ThreadPoolExecutor(max_workers=8) as ex:
+        for batch in ex.map(lambda i: _fetch_events_page(i * per_page, per_page), range(pages)):
+            out.extend(batch)
     games = []
     for ev in out:
         if ev.get("negRisk") or not GAME_SLUG.search(ev.get("slug", "")):
@@ -89,25 +106,29 @@ def fetch_game_events(pages: int = 15, per_page: int = 100) -> list[dict]:
     return games
 
 
+def _fetch_books_batch(chunk: list[str]) -> list[dict]:
+    try:
+        r = _SESSION.post(f"{CLOB}/books", json=[{"token_id": t} for t in chunk], timeout=30)
+    except requests.RequestException:
+        return []
+    return r.json() if r.status_code == 200 else []
+
+
 def get_books(token_ids: list[str]) -> dict[str, tuple]:
-    """Живые стаканы CLOB батчем. -> {token_id: (bid, bid_sz, ask, ask_sz)}"""
+    """Живые стаканы CLOB батчами по 50 токенов, параллельно.
+    -> {token_id: (bid, bid_sz, ask, ask_sz)}"""
     res: dict[str, tuple] = {}
-    for i in range(0, len(token_ids), 50):
-        chunk = token_ids[i:i + 50]
-        try:
-            r = requests.post(f"{CLOB}/books", json=[{"token_id": t} for t in chunk],
-                              timeout=30)
-        except requests.RequestException:
-            continue
-        if r.status_code != 200:
-            continue
-        for b in r.json():
-            bids = [(float(x["price"]), float(x["size"])) for x in (b.get("bids") or [])]
-            asks = [(float(x["price"]), float(x["size"])) for x in (b.get("asks") or [])]
-            best_bid = max(bids) if bids else (None, 0.0)
-            best_ask = min(asks) if asks else (None, 0.0)
-            res[b["asset_id"]] = (best_bid[0], best_bid[1], best_ask[0], best_ask[1])
-        time.sleep(0.1)
+    chunks = [token_ids[i:i + 50] for i in range(0, len(token_ids), 50)]
+    if not chunks:
+        return res
+    with ThreadPoolExecutor(max_workers=8) as ex:
+        for batch in ex.map(_fetch_books_batch, chunks):
+            for b in batch:
+                bids = [(float(x["price"]), float(x["size"])) for x in (b.get("bids") or [])]
+                asks = [(float(x["price"]), float(x["size"])) for x in (b.get("asks") or [])]
+                best_bid = max(bids) if bids else (None, 0.0)
+                best_ask = min(asks) if asks else (None, 0.0)
+                res[b["asset_id"]] = (best_bid[0], best_bid[1], best_ask[0], best_ask[1])
     return res
 
 
@@ -218,7 +239,11 @@ def build_pairs(events: list[dict]) -> tuple[list[dict], list[str], dict]:
 
 
 def evaluate(pairs: list[dict], books: dict[str, tuple]) -> list[dict]:
-    """Проверка пар по живым стаканам, расчёт gross/net (комиссии обеих ног)."""
+    """Проверка пар по живым стаканам, расчёт gross/net (комиссии обеих ног).
+
+    strong_tok/weak_tok остаются в строке (не идут в CSV) — нужны verify()
+    для повторного чтения стакана тех же двух рынков.
+    """
     rows = []
     ts = datetime.now(timezone.utc).isoformat(timespec="seconds")
     for c in pairs:
@@ -245,6 +270,7 @@ def evaluate(pairs: list[dict], books: dict[str, tuple]) -> list[dict]:
             rows.append({
                 "ts": ts, "event_slug": c["event"], "check": c["check"],
                 "strong_slug": c["strong_slug"], "weak_slug": c["weak_slug"],
+                "strong_tok": c["strong_tok"], "weak_tok": c["weak_tok"],
                 "bid_strong": round(px[0], 4), "ask_weak": round(px[1], 4),
                 "gross_gap": round(gross, 4), "net_gap": round(gross - fees, 4),
                 "exec_size": round(size, 1),
@@ -252,14 +278,77 @@ def evaluate(pairs: list[dict], books: dict[str, tuple]) -> list[dict]:
     return rows
 
 
+def is_accepting(slug: str) -> bool | None:
+    """Живой статус рынка по Gamma (acceptingOrders и не closed).
+    None — не удалось узнать (сетевая ошибка/рынок исчез из выдачи)."""
+    try:
+        r = _SESSION.get(f"{GAMMA}/markets", params={"slug": slug}, timeout=15)
+        if r.status_code != 200:
+            return None
+        data = r.json()
+        if not data:
+            return None
+        m = data[0]
+        return bool(m.get("acceptingOrders")) and not bool(m.get("closed"))
+    except requests.RequestException:
+        return None
+
+
+def verify(rows: list[dict]) -> None:
+    """Мутирует rows in-place: через VERIFY_DELAY секунд перечитывает те же
+    стаканы (отсеивает срабатывания на дрогнувшей на миг котировке) и
+    статус acceptingOrders обеих ног (отсеивает приостановленные live-рынки).
+    Вызывать только для net_gap>0 — иначе на каждый скан уйдёт лишних
+    VERIFY_DELAY секунд без надобности.
+    """
+    if not rows:
+        return
+    time.sleep(VERIFY_DELAY)
+    toks = sorted({r["strong_tok"] for r in rows} | {r["weak_tok"] for r in rows})
+    fresh = get_books(toks)
+    for r in rows:
+        bs, bw = fresh.get(r["strong_tok"]), fresh.get(r["weak_tok"])
+        gross2 = None
+        if bs and bw:
+            if r["check"] == "spread_exclusive":
+                if bs[0] is not None and bw[0] is not None:
+                    gross2 = bs[0] + bw[0] - 1.0
+            elif bs[0] is not None and bw[2] is not None:
+                gross2 = bs[0] - bw[2]
+        r["verified_gross_gap"] = round(gross2, 4) if gross2 is not None else ""
+        r["still_violated"] = gross2 is not None and gross2 > 0
+        r["accepting_both"] = bool(is_accepting(r["strong_slug"])) and bool(is_accepting(r["weak_slug"]))
+
+
+def _migrate_schema() -> None:
+    """Если файл существует со старым набором колонок (без verify-полей),
+    дозаполняет их пустыми значениями и переписывает с новым заголовком."""
+    if not VIOLATIONS_CSV.exists():
+        return
+    with VIOLATIONS_CSV.open("r", newline="", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        if reader.fieldnames == COLUMNS:
+            return
+        old_rows = list(reader)
+    for r in old_rows:
+        for col in COLUMNS:
+            r.setdefault(col, "")
+    with VIOLATIONS_CSV.open("w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=COLUMNS)
+        w.writeheader()
+        w.writerows(old_rows)
+
+
 def append_csv(rows: list[dict]) -> None:
     VIOLATIONS_CSV.parent.mkdir(parents=True, exist_ok=True)
+    _migrate_schema()
     new_file = not VIOLATIONS_CSV.exists()
+    clean = [{col: r.get(col, "") for col in COLUMNS} for r in rows]
     with VIOLATIONS_CSV.open("a", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=COLUMNS)
         if new_file:
             w.writeheader()
-        w.writerows(rows)
+        w.writerows(clean)
 
 
 # ------------------------------------------------------------------------ CLI
@@ -285,19 +374,25 @@ def scan_once(cache: dict | None = None, verbose: bool = True) -> list[dict]:
 
     books = get_books(toks)
     rows = evaluate(pairs, books)
+    profitable = [r for r in rows if r["net_gap"] > 0]
+    verify(profitable)  # только прибыльные — не тормозим каждый обычный скан
     if rows:
         append_csv(rows)
     if verbose:
+        confirmed = sum(1 for r in profitable if r.get("still_violated") and r.get("accepting_both"))
         print(f"стаканов получено: {len(books)}, нарушений: {len(rows)} "
-              f"(из них net>0: {sum(1 for r in rows if r['net_gap'] > 0)})")
+              f"(net>0: {len(profitable)}, подтверждено live: {confirmed})")
         seen = cache.setdefault("seen", set()) if cache is not None else set()
         for r in rows:
             key = (r["strong_slug"], r["weak_slug"])
             if key in seen and r["net_gap"] <= 0:
                 continue
             seen.add(key)
+            tag = ""
+            if r["net_gap"] > 0:
+                tag = " [ПОДТВ.]" if (r.get("still_violated") and r.get("accepting_both")) else " [фантом?]"
             print(f"  [{r['check']}] gross={r['gross_gap']:+.3f} net={r['net_gap']:+.3f} "
-                  f"size={r['exec_size']:.0f}  {r['strong_slug']}  >  {r['weak_slug']}")
+                  f"size={r['exec_size']:.0f}  {r['strong_slug']}  >  {r['weak_slug']}{tag}")
     return rows
 
 
