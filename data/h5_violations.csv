@@ -900,3 +900,12 @@ ts,event_slug,check,strong_slug,weak_slug,bid_strong,ask_weak,gross_gap,net_gap,
 2026-07-16T05:43:59+00:00,mlb-atl-cws-2026-06-11,spread_implies_ml,mlb-atl-cws-2026-06-11-spread-home-1pt5,mlb-atl-cws-2026-06-11,0.56,0.48,0.08,0.065,5.0,0.08,True,True
 2026-07-16T05:44:25+00:00,mlb-atl-cws-2026-06-11,spread_implies_ml,mlb-atl-cws-2026-06-11-spread-home-1pt5,mlb-atl-cws-2026-06-11,0.56,0.48,0.08,0.065,5.0,0.08,True,True
 2026-07-16T05:44:50+00:00,mlb-atl-cws-2026-06-11,spread_implies_ml,mlb-atl-cws-2026-06-11-spread-home-1pt5,mlb-atl-cws-2026-06-11,0.56,0.48,0.08,0.065,5.0,0.08,True,True
+2026-07-16T14:30:36+00:00,lol-jdg-milo-2026-07-16,over_ladder,lol-jdg-milo-2026-07-16-game2-kill-over-36pt5,lol-jdg-milo-2026-07-16-game2-kill-over-30pt5,0.02,0.01,0.01,0.007,3.7,,False,True
+2026-07-16T14:30:36+00:00,lol-jdg-milo-2026-07-16,over_ladder,lol-jdg-milo-2026-07-16-game2-kill-over-36pt5,lol-jdg-milo-2026-07-16-game2-kill-over-33pt5,0.02,0.01,0.01,0.007,3.7,,False,True
+2026-07-16T15:20:57+00:00,cs2-nip-m8-2026-07-16,over_ladder,cs2-nip-m8-2026-07-16-game1-round-total-21pt5,cs2-nip-m8-2026-07-16-game1-round-total-18pt5,0.999,0.99,0.009,0.0079,3.6,0.009,True,True
+2026-07-16T15:59:00+00:00,atp-dellien-valle-2026-07-16,over_ladder,atp-dellien-valle-2026-07-16-match-total-23pt5,atp-dellien-valle-2026-07-16-match-total-22pt5,0.57,0.53,0.04,0.025,1342.5,,False,True
+2026-07-16T18:33:52+00:00,wta-kovinic-riera-2026-07-15,over_ladder,wta-kovinic-riera-2026-07-15-match-total-23pt5,wta-kovinic-riera-2026-07-15-match-total-22pt5,0.51,0.5,0.01,-0.005,4525.5,,,
+2026-07-16T18:34:12+00:00,wta-kovinic-riera-2026-07-15,over_ladder,wta-kovinic-riera-2026-07-15-match-total-23pt5,wta-kovinic-riera-2026-07-15-match-total-22pt5,0.51,0.5,0.01,-0.005,4525.5,,,
+2026-07-16T19:09:11+00:00,col-ham-nsi-2026-07-16-more-markets,over_ladder,col-ham-nsi-2026-07-16-total-1pt5,col-ham-nsi-2026-07-16-total-0pt5,0.99,0.989,0.001,-0.0011,5.0,,,
+2026-07-16T19:23:36+00:00,col-ham-nsi-2026-07-16-more-markets,over_ladder,col-ham-nsi-2026-07-16-total-2pt5,col-ham-nsi-2026-07-16-total-0pt5,0.99,0.989,0.001,-0.0011,5.0,,,
+2026-07-16T19:23:56+00:00,col-ham-nsi-2026-07-16-more-markets,over_ladder,col-ham-nsi-2026-07-16-total-2pt5,col-ham-nsi-2026-07-16-total-0pt5,0.99,0.989,0.001,-0.0011,5.0,,,
