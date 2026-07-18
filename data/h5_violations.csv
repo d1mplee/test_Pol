@@ -1661,3 +1661,4 @@ ts,event_slug,check,strong_slug,weak_slug,bid_strong,ask_weak,gross_gap,net_gap,
 2026-07-17T14:52:55+00:00,lol-blg-dk-2026-07-17,over_ladder,lol-blg-dk-2026-07-17-game2-kill-over-36pt5,lol-blg-dk-2026-07-17-game2-kill-over-33pt5,0.01,0.008,0.002,0.0002,0.9,,False,True
 2026-07-17T14:52:55+00:00,lol-blg-dk-2026-07-17,over_ladder,lol-blg-dk-2026-07-17-game2-kill-over-39pt5,lol-blg-dk-2026-07-17-game2-kill-over-33pt5,0.01,0.008,0.002,0.0002,0.4,0.002,True,True
 2026-07-17T18:20:14+00:00,cs2-3dmax-k271-2026-07-17,over_ladder,cs2-3dmax-k271-2026-07-17-game1-round-total-21pt5,cs2-3dmax-k271-2026-07-17-game1-round-total-18pt5,0.01,0.009,0.001,-0.0009,5.0,,,
+2026-07-18T00:33:16+00:00,bra-flu-bra-2026-07-17-more-markets,cover_ladder,bra-flu-bra-2026-07-17-spread-home-2pt5,bra-flu-bra-2026-07-17-spread-home-1pt5,0.05,0.04,0.01,0.0014,20.0,0.01,True,True
