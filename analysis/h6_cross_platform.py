@@ -31,6 +31,7 @@ import requests
 
 import config
 from pm import kalshi
+from pm.costs import taker_fee_per_share as pm_fee
 
 GAMMA = "https://gamma-api.polymarket.com"
 _SESSION = requests.Session()
@@ -48,14 +49,27 @@ FED_OUTCOMES = {
     "C26": "50+ bps decrease",
 }
 
+# pm_category: категория комиссии Polymarket (политика 0%, спорт кэп 0.75ц)
 PAIRS = [
     {"name": "fed-jul26", "pm_event": "fed-decision-in-july-181",
-     "kalshi_event": "KXFEDDECISION-26JUL", "outcomes": FED_OUTCOMES},
+     "kalshi_event": "KXFEDDECISION-26JUL", "outcomes": FED_OUTCOMES,
+     "pm_category": "politics"},
     {"name": "fed-sep26", "pm_event": "fed-decision-in-september-762",
-     "kalshi_event": "KXFEDDECISION-26SEP", "outcomes": FED_OUTCOMES},
+     "kalshi_event": "KXFEDDECISION-26SEP", "outcomes": FED_OUTCOMES,
+     "pm_category": "politics"},
     {"name": "fed-oct26", "pm_event": "fed-decision-in-october-20260617190323537",
-     "kalshi_event": "KXFEDDECISION-26OCT", "outcomes": FED_OUTCOMES},
+     "kalshi_event": "KXFEDDECISION-26OCT", "outcomes": FED_OUTCOMES,
+     "pm_category": "politics"},
+    # финал ЧМ-2026 (резолв 2026-07-19; после — пара сама отвалится по closed)
+    {"name": "wc-winner", "pm_event": "world-cup-winner",
+     "kalshi_event": None, "kalshi_series": "KXMENWORLDCUP",
+     "outcomes": {"ES": "Spain", "AR": "Argentina"},
+     "pm_category": "sports"},
 ]
+
+# НЕ добавлять без сверки семантики: крипто PM = touch ("коснётся X"),
+# Kalshi = terminal ("цена на дату"); CPI — разные референсные месяцы
+# (KXCPI-26JUL почти зарезолвлен, PM july-inflation широко открыт).
 
 
 def pm_event_quotes(slug: str) -> dict[str, tuple[float, float]]:
@@ -79,7 +93,8 @@ def pm_event_quotes(slug: str) -> dict[str, tuple[float, float]]:
 def scan_pair(pair: dict) -> list[dict]:
     pm_q = pm_event_quotes(pair["pm_event"])
     k_markets = {m["ticker"].rsplit("-", 1)[-1]: m
-                 for m in kalshi.get_markets(event_ticker=pair["kalshi_event"])
+                 for m in kalshi.get_markets(event_ticker=pair.get("kalshi_event"),
+                                             series_ticker=pair.get("kalshi_series"))
                  if m.get("status") == "active"}
     ts = datetime.now(timezone.utc).isoformat(timespec="seconds")
     rows = []
@@ -94,9 +109,12 @@ def scan_pair(pair: dict) -> list[dict]:
             continue
         mid_gap = (k_bid + k_ask) / 2 - (pm_bid + pm_ask) / 2
         # купить Yes на PM по ask + No на Kalshi по (1-bid): выплата $1 ровно
-        # одному из них; комиссия Kalshi считается от цены её ноги
-        edge_buy_pm = (1.0 - (pm_ask + (1.0 - k_bid))) - kalshi.taker_fee_per_share(1.0 - k_bid)
-        edge_buy_k = (1.0 - (k_ask + (1.0 - pm_bid))) - kalshi.taker_fee_per_share(k_ask)
+        # одному из них; комиссии обеих ног (PM: 0% политика / кэп 0.75ц спорт)
+        cat = pair.get("pm_category", "politics")
+        edge_buy_pm = (1.0 - (pm_ask + (1.0 - k_bid))) \
+            - kalshi.taker_fee_per_share(1.0 - k_bid) - pm_fee(pm_ask, cat)
+        edge_buy_k = (1.0 - (k_ask + (1.0 - pm_bid))) \
+            - kalshi.taker_fee_per_share(k_ask) - pm_fee(1.0 - pm_bid, cat)
         rows.append({
             "ts": ts, "pair": pair["name"], "outcome": pm_title,
             "pm_bid": pm_bid, "pm_ask": pm_ask, "k_bid": k_bid, "k_ask": k_ask,

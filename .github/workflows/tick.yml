@@ -32,11 +32,14 @@ jobs:
       - name: paper tick
         run: python -u -X utf8 -m paper.run tick
 
+      - name: h6 cross-platform scan
+        run: python -u -X utf8 -m analysis.h6_cross_platform || true
+
       - name: commit journal
         run: |
           git config user.name "paper-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add -f data/paper_positions.csv
+          git add -f data/paper_positions.csv data/h6_divergences.csv
           git diff --cached --quiet && echo "нет изменений" && exit 0
           git commit -m "tick: $(date -u +'%Y-%m-%d %H:%MZ')"
           for i in 1 2 3 4 5; do
