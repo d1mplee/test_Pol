@@ -64,13 +64,17 @@ def _next_id(df: pd.DataFrame) -> int:
 def scan_active_markets(client: PolymarketClient, target: int = 2000) -> list[dict]:
     """Пагинация по фактическому размеру батча (Gamma может отдавать <limit)."""
     markets: list[dict] = []
+    seen: set = set()
     offset = 0
     while len(markets) < target:
         batch = client.get_markets(closed=False, active=True, order="volume",
                                    limit=500, offset=offset)
         if not batch:
             break
-        markets.extend(batch)
+        # объёмы меняются между страницами -> рынок может прийти дважды;
+        # без дедупа это давало двойные открытия за один tick
+        markets.extend(m for m in batch if m["condition_id"] not in seen)
+        seen.update(m["condition_id"] for m in batch)
         offset += len(batch)
     return [m for m in markets if m["yes_token_id"] and m["no_token_id"]]
 
@@ -111,6 +115,7 @@ def open_h2_positions(client: PolymarketClient, journal: pd.DataFrame,
             "note": f"implied_yes={implied:.3f} spread={yes_ask-yes_bid:.3f}",
         }
         journal = pd.concat([journal, pd.DataFrame([row])], ignore_index=True)
+        have.add(m["condition_id"])
         opened += 1
         print(f"  [H2 OPEN] No@{no_ask:.3f} implied_yes={implied:.2f}  {m['slug']}")
     return journal
@@ -181,6 +186,7 @@ def open_h3_positions(client: PolymarketClient, journal: pd.DataFrame,
             "note": f"last={last:.3f} ma{H3_WINDOW}={ma:.3f} dev={last-ma:+.3f}",
         }
         journal = pd.concat([journal, pd.DataFrame([row])], ignore_index=True)
+        have.add(m["condition_id"])
         opened += 1
         print(f"  [H3 OPEN] Yes@{yes_ask:.3f} dev={last-ma:+.3f}  {m['slug']}")
     return journal
@@ -216,9 +222,10 @@ def settle_h3(client: PolymarketClient, journal: pd.DataFrame) -> pd.DataFrame:
 
 
 # ------------------------------------------------------------------- tick
-# H3 ВЫКЛЮЧЕН по итогам paper-теста 2026-07-07: 265 сделок, -7.7ц/акцию,
-# winrate 17%, t=-4.5 — статистически подтверждённый убыток. Легаси-позиции
-# продолжают рассчитываться через settle_h3, новые не открываются.
+# H3 ВЫКЛЮЧЕН по итогам paper-теста: 314 сделок, winrate 16%, t=-6.
+# Номинал -9.2ц/акцию завышен багом категории комиссии (геополитика платила
+# 1.8ц вместо 0%), но вывод робастен: даже с полностью обнулёнными комиссиями
+# -6.0ц/акцию, t=-3.9. Все позиции рассчитаны, новые не открываются.
 def tick(max_new_h2: int = 15, max_new_h3: int = 0) -> None:
     client = PolymarketClient()
     journal = load_journal()

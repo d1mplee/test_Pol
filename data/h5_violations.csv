@@ -1781,13 +1781,13 @@ ts,event_slug,check,strong_slug,weak_slug,bid_strong,ask_weak,gross_gap,net_gap,
 2026-07-18T04:08:23+00:00,mlb-wsh-oak-2026-07-17,spread_implies_ml,mlb-wsh-oak-2026-07-17-spread-home-1pt5,mlb-wsh-oak-2026-07-17,0.01,0.001,0.009,0.0079,10.0,0.009,True,True
 2026-07-18T04:08:49+00:00,mlb-wsh-oak-2026-07-17,spread_implies_ml,mlb-wsh-oak-2026-07-17-spread-home-1pt5,mlb-wsh-oak-2026-07-17,0.01,0.001,0.009,0.0079,10.0,0.009,True,True
 2026-07-18T04:09:14+00:00,mlb-wsh-oak-2026-07-17,spread_implies_ml,mlb-wsh-oak-2026-07-17-spread-home-1pt5,mlb-wsh-oak-2026-07-17,0.01,0.001,0.009,0.0079,10.0,0.009,True,True
-2026-07-18T04:09:14+00:00,mlb-wsh-oak-2026-07-17,spread_exclusive,mlb-wsh-oak-2026-07-17-spread-home-1pt5,mlb-wsh-oak-2026-07-17-spread-away-1pt5,0.01,0.999,0.009,0.0079,10.0,0.009,True,True
+2026-07-18T04:09:14+00:00,mlb-wsh-oak-2026-07-17,spread_exclusive,mlb-wsh-oak-2026-07-17-spread-home-1pt5,mlb-wsh-oak-2026-07-17-spread-away-1pt5,0.01,0.001,0.009,0.0079,10.0,0.009,True,True
 2026-07-18T04:09:40+00:00,mlb-sf-sea-2026-07-17,spread_implies_ml,mlb-sf-sea-2026-07-17-spread-home-1pt5,mlb-sf-sea-2026-07-17,0.01,0.009,0.001,-0.0009,5.0,,,
 2026-07-18T04:09:40+00:00,mlb-wsh-oak-2026-07-17,spread_implies_ml,mlb-wsh-oak-2026-07-17-spread-home-1pt5,mlb-wsh-oak-2026-07-17,0.01,0.001,0.009,0.0079,10.0,0.009,True,True
-2026-07-18T04:09:40+00:00,mlb-wsh-oak-2026-07-17,spread_exclusive,mlb-wsh-oak-2026-07-17-spread-home-1pt5,mlb-wsh-oak-2026-07-17-spread-away-1pt5,0.01,0.999,0.009,0.0079,10.0,0.009,True,True
+2026-07-18T04:09:40+00:00,mlb-wsh-oak-2026-07-17,spread_exclusive,mlb-wsh-oak-2026-07-17-spread-home-1pt5,mlb-wsh-oak-2026-07-17-spread-away-1pt5,0.01,0.001,0.009,0.0079,10.0,0.009,True,True
 2026-07-18T04:10:05+00:00,mlb-sf-sea-2026-07-17,spread_implies_ml,mlb-sf-sea-2026-07-17-spread-home-1pt5,mlb-sf-sea-2026-07-17,0.01,0.009,0.001,-0.0009,5.0,,,
 2026-07-18T04:10:05+00:00,mlb-wsh-oak-2026-07-17,spread_implies_ml,mlb-wsh-oak-2026-07-17-spread-home-1pt5,mlb-wsh-oak-2026-07-17,0.01,0.001,0.009,0.0079,10.0,0.009,True,True
-2026-07-18T04:10:05+00:00,mlb-wsh-oak-2026-07-17,spread_exclusive,mlb-wsh-oak-2026-07-17-spread-home-1pt5,mlb-wsh-oak-2026-07-17-spread-away-1pt5,0.01,0.999,0.009,0.0079,10.0,0.009,True,True
+2026-07-18T04:10:05+00:00,mlb-wsh-oak-2026-07-17,spread_exclusive,mlb-wsh-oak-2026-07-17-spread-home-1pt5,mlb-wsh-oak-2026-07-17-spread-away-1pt5,0.01,0.001,0.009,0.0079,10.0,0.009,True,True
 2026-07-18T04:13:13+00:00,mlb-sf-sea-2026-07-17,spread_implies_ml,mlb-sf-sea-2026-07-17-spread-home-1pt5,mlb-sf-sea-2026-07-17,0.01,0.007,0.003,0.0013,35.5,0.003,True,True
 2026-07-18T04:13:39+00:00,mlb-sf-sea-2026-07-17,spread_implies_ml,mlb-sf-sea-2026-07-17-spread-home-1pt5,mlb-sf-sea-2026-07-17,0.01,0.007,0.003,0.0013,25.0,0.003,True,True
 2026-07-18T04:14:04+00:00,mlb-sf-sea-2026-07-17,spread_implies_ml,mlb-sf-sea-2026-07-17-spread-home-1pt5,mlb-sf-sea-2026-07-17,0.01,0.007,0.003,0.0013,25.0,0.003,True,True

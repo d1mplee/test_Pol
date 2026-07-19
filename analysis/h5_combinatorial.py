@@ -56,7 +56,6 @@ GAME_SLUG = re.compile(r"-\d{4}-\d{2}-\d{2}")
 # лестницы: stem = всё до числовой линии в конце слага
 LADDER_OVER = re.compile(r"^(?P<stem>.+-(?:totals?|kill-over|corners-over))-(?P<line>\d+)(?P<half>pt5)?$")
 LADDER_COVER = re.compile(r"^(?P<stem>.+-(?:spread|handicap)-(?:home|away))-(?P<line>\d+)(?P<half>pt5)?$")
-FULL_SPREAD = re.compile(r"-spread-(?P<side>home|away)-\d+(?:pt5)?$")
 
 VIOLATIONS_CSV = Path(config.DATA_DIR) / "h5_violations.csv"
 COLUMNS = [
@@ -107,11 +106,15 @@ def fetch_game_events(pages: int = 15, per_page: int = 100) -> list[dict]:
 
 
 def _fetch_books_batch(chunk: list[str]) -> list[dict]:
-    try:
-        r = _SESSION.post(f"{CLOB}/books", json=[{"token_id": t} for t in chunk], timeout=30)
-    except requests.RequestException:
-        return []
-    return r.json() if r.status_code == 200 else []
+    for attempt in range(3):
+        try:
+            r = _SESSION.post(f"{CLOB}/books", json=[{"token_id": t} for t in chunk], timeout=30)
+            if r.status_code == 200:
+                return r.json()
+        except requests.RequestException:
+            pass
+        time.sleep(attempt + 1)
+    return []
 
 
 def get_books(token_ids: list[str]) -> dict[str, tuple]:
@@ -212,11 +215,14 @@ def build_pairs(events: list[dict]) -> tuple[list[dict], list[str], dict]:
                         add(f"{fam}_ladder", ev["slug"], m_hi, m_lo,
                             yes_token(m_hi), yes_token(m_lo))
 
-        # спред полного матча => moneyline той же команды
+        # спред полного матча => moneyline той же команды.
+        # Белый список: стем обязан быть ровно "<слаг матча>-spread-<side>" —
+        # любой периодный вариант (f5-, h1-, set-...) автоматически мимо,
+        # т.к. спред периода НЕ влечёт исход всего матча.
         ml = p["moneyline"]
         if ml:
             for stem, lst in p["cover"].items():
-                if not FULL_SPREAD.search(stem + "-1pt5") or "-f5-" in stem or "handicap" in stem:
+                if stem not in (ev["slug"] + "-spread-home", ev["slug"] + "-spread-away"):
                     continue
                 for line, m_sp in lst:
                     tok = ml_team_token(ml, m_sp.get("question"))
@@ -225,9 +231,9 @@ def build_pairs(events: list[dict]) -> tuple[list[dict], list[str], dict]:
 
         # несовместные спреды home/away (пары стемов, отличающихся стороной)
         for stem_h, lst_h in p["cover"].items():
-            if "-home" not in stem_h:
+            if not stem_h.endswith("-home"):
                 continue
-            lst_a = p["cover"].get(stem_h.replace("-home", "-away"))
+            lst_a = p["cover"].get(stem_h[:-len("-home")] + "-away")
             if not lst_a:
                 continue
             for lh, mh in lst_h:
@@ -258,7 +264,9 @@ def evaluate(pairs: list[dict], books: dict[str, tuple]) -> list[dict]:
             gross = bid_s + bid_w - 1.0
             size = min(bid_s_sz, bid_w_sz)
             fees = taker_fee_per_share(1 - bid_s, "sports") + taker_fee_per_share(1 - bid_w, "sports")
-            px = (bid_s, bid_w)
+            # в ask_weak кладём ask No-ноги (1-bid_w): тогда для ВСЕХ типов
+            # проверок выполняется gross_gap == bid_strong - ask_weak
+            px = (bid_s, 1.0 - bid_w)
         else:
             if bid_s is None or ask_w is None:
                 continue
