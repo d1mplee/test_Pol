@@ -2270,3 +2270,4 @@ ts,event_slug,check,strong_slug,weak_slug,bid_strong,ask_weak,gross_gap,net_gap,
 2026-07-21T05:49:33+00:00,wnba-nyl-dal-2026-07-16,spread_implies_ml,wnba-nyl-dal-2026-07-16-spread-home-1pt5,wnba-nyl-dal-2026-07-16,0.002,0.001,0.001,0.0007,6.2,0.001,True,True
 2026-07-21T05:49:58+00:00,wnba-nyl-dal-2026-07-16,spread_implies_ml,wnba-nyl-dal-2026-07-16-spread-home-1pt5,wnba-nyl-dal-2026-07-16,0.002,0.001,0.001,0.0007,6.2,0.001,True,True
 2026-07-21T05:50:24+00:00,wnba-nyl-dal-2026-07-16,spread_implies_ml,wnba-nyl-dal-2026-07-16-spread-home-1pt5,wnba-nyl-dal-2026-07-16,0.002,0.001,0.001,0.0007,6.2,0.001,True,True
+2026-07-21T18:19:47+00:00,ucl-agf-lep-2026-07-21-more-markets,cover_ladder,ucl-agf-lep-2026-07-21-spread-home-2pt5,ucl-agf-lep-2026-07-21-spread-home-1pt5,0.01,0.009,0.001,-0.0009,100.0,,,
