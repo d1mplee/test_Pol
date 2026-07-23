@@ -2338,3 +2338,4 @@ ts,event_slug,check,strong_slug,weak_slug,bid_strong,ask_weak,gross_gap,net_gap,
 2026-07-22T04:54:55+00:00,mlb-oak-ari-2026-07-21,spread_implies_ml,mlb-oak-ari-2026-07-21-spread-away-1pt5,mlb-oak-ari-2026-07-21,0.01,0.001,0.009,0.0079,10.0,0.009,True,True
 2026-07-22T04:55:20+00:00,mlb-oak-ari-2026-07-21,spread_implies_ml,mlb-oak-ari-2026-07-21-spread-away-1pt5,mlb-oak-ari-2026-07-21,0.01,0.001,0.009,0.0079,10.0,0.009,True,True
 2026-07-22T18:06:27+00:00,wta-bondar-akugue-2026-07-22,over_ladder,wta-bondar-akugue-2026-07-22-match-total-22pt5,wta-bondar-akugue-2026-07-22-match-total-21pt5,0.51,0.49,0.02,0.005,1290.0,0.02,True,True
+2026-07-23T04:17:53+00:00,wnba-dal-por-2026-07-22,cover_ladder,wnba-dal-por-2026-07-22-spread-away-5pt5,wnba-dal-por-2026-07-22-spread-away-4pt5,0.43,0.37,0.06,0.045,8.0,0.06,True,True
