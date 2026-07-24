@@ -2418,3 +2418,10 @@ ts,event_slug,check,strong_slug,weak_slug,bid_strong,ask_weak,gross_gap,net_gap,
 2026-07-23T16:13:28+00:00,cs2-nip-echo-2026-07-23,over_ladder,cs2-nip-echo-2026-07-23-game1-round-total-33pt5,cs2-nip-echo-2026-07-23-game1-round-total-30pt5,0.01,0.009,0.001,-0.0009,5.0,,,
 2026-07-23T16:13:48+00:00,cs2-nip-echo-2026-07-23,over_ladder,cs2-nip-echo-2026-07-23-game1-round-total-33pt5,cs2-nip-echo-2026-07-23-game1-round-total-30pt5,0.01,0.009,0.001,-0.0009,5.0,,,
 2026-07-23T16:14:09+00:00,cs2-nip-echo-2026-07-23,over_ladder,cs2-nip-echo-2026-07-23-game1-round-total-33pt5,cs2-nip-echo-2026-07-23-game1-round-total-30pt5,0.01,0.009,0.001,-0.0009,5.0,,,
+2026-07-24T11:36:31+00:00,atp-hanfman-halys-2026-07-24,over_ladder,atp-hanfman-halys-2026-07-24-match-total-23pt5,atp-hanfman-halys-2026-07-24-match-total-22pt5,0.33,0.31,0.02,0.005,0.0,0.03,True,True
+2026-07-24T11:36:57+00:00,atp-hanfman-halys-2026-07-24,over_ladder,atp-hanfman-halys-2026-07-24-match-total-23pt5,atp-hanfman-halys-2026-07-24-match-total-22pt5,0.33,0.27,0.06,0.045,0.0,0.06,True,True
+2026-07-24T11:37:22+00:00,atp-hanfman-halys-2026-07-24,over_ladder,atp-hanfman-halys-2026-07-24-match-total-23pt5,atp-hanfman-halys-2026-07-24-match-total-22pt5,0.33,0.25,0.08,0.065,0.0,0.07,True,True
+2026-07-24T11:37:48+00:00,atp-hanfman-halys-2026-07-24,over_ladder,atp-hanfman-halys-2026-07-24-match-total-23pt5,atp-hanfman-halys-2026-07-24-match-total-22pt5,0.33,0.15,0.18,0.165,0.0,0.18,True,True
+2026-07-24T11:38:14+00:00,atp-hanfman-halys-2026-07-24,over_ladder,atp-hanfman-halys-2026-07-24-match-total-23pt5,atp-hanfman-halys-2026-07-24-match-total-22pt5,0.33,0.16,0.17,0.155,0.0,0.17,True,True
+2026-07-24T11:38:39+00:00,atp-hanfman-halys-2026-07-24,over_ladder,atp-hanfman-halys-2026-07-24-match-total-23pt5,atp-hanfman-halys-2026-07-24-match-total-22pt5,0.33,0.16,0.17,0.155,0.0,0.17,True,True
+2026-07-24T11:39:05+00:00,atp-hanfman-halys-2026-07-24,over_ladder,atp-hanfman-halys-2026-07-24-match-total-23pt5,atp-hanfman-halys-2026-07-24-match-total-22pt5,0.33,0.15,0.18,0.165,0.0,0.18,True,True
