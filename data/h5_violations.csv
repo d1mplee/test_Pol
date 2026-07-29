@@ -7300,3 +7300,4 @@ ts,event_slug,check,strong_slug,weak_slug,bid_strong,ask_weak,gross_gap,net_gap,
 2026-07-29T04:15:02+00:00,mlb-mil-sf-2026-07-28,spread_implies_ml,mlb-mil-sf-2026-07-28-spread-home-2pt5,mlb-mil-sf-2026-07-28,0.01,0.006,0.004,0.0024,5.0,0.004,True,True
 2026-07-29T04:15:28+00:00,mlb-mil-sf-2026-07-28,spread_implies_ml,mlb-mil-sf-2026-07-28-spread-home-2pt5,mlb-mil-sf-2026-07-28,0.01,0.007,0.003,0.0013,5.0,0.003,True,True
 2026-07-29T04:15:53+00:00,mlb-mil-sf-2026-07-28,spread_implies_ml,mlb-mil-sf-2026-07-28-spread-home-2pt5,mlb-mil-sf-2026-07-28,0.01,0.006,0.004,0.0024,5.0,0.004,True,True
+2026-07-29T18:39:03+00:00,mlb-phi-mia-2026-07-29,spread_implies_ml,mlb-phi-mia-2026-07-29-spread-away-2pt5,mlb-phi-mia-2026-07-29,0.01,0.005,0.005,0.0035,5.0,0.005,True,True
