@@ -7323,3 +7323,6 @@ ts,event_slug,check,strong_slug,weak_slug,bid_strong,ask_weak,gross_gap,net_gap,
 2026-07-30T04:40:03+00:00,mlb-sea-lad-2026-07-29,spread_implies_ml,mlb-sea-lad-2026-07-29-spread-away-2pt5,mlb-sea-lad-2026-07-29,0.01,0.007,0.003,0.0013,5.0,0.001,True,True
 2026-07-30T04:40:29+00:00,mlb-sea-lad-2026-07-29,spread_implies_ml,mlb-sea-lad-2026-07-29-spread-away-1pt5,mlb-sea-lad-2026-07-29,0.01,0.005,0.005,0.0035,5.0,0.005,True,True
 2026-07-30T04:40:29+00:00,mlb-sea-lad-2026-07-29,spread_implies_ml,mlb-sea-lad-2026-07-29-spread-away-2pt5,mlb-sea-lad-2026-07-29,0.01,0.005,0.005,0.0035,5.0,0.005,True,True
+2026-07-30T10:44:04+00:00,auc-sof-bri-2026-07-30-more-markets,cover_ladder,auc-sof-bri-2026-07-30-spread-away-2pt5,auc-sof-bri-2026-07-30-spread-away-1pt5,0.26,0.25,0.01,-0.005,5.0,,,
+2026-07-30T10:44:24+00:00,auc-sof-bri-2026-07-30-more-markets,cover_ladder,auc-sof-bri-2026-07-30-spread-away-2pt5,auc-sof-bri-2026-07-30-spread-away-1pt5,0.26,0.25,0.01,-0.005,5.0,,,
+2026-07-30T10:45:25+00:00,auc-sof-bri-2026-07-30-more-markets,cover_ladder,auc-sof-bri-2026-07-30-spread-away-2pt5,auc-sof-bri-2026-07-30-spread-away-1pt5,0.25,0.24,0.01,-0.005,5.0,,,
