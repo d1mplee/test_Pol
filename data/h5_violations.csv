@@ -7519,3 +7519,4 @@ ts,event_slug,check,strong_slug,weak_slug,bid_strong,ask_weak,gross_gap,net_gap,
 2026-07-30T16:59:32+00:00,val-navi1-pcfic-2026-07-30,over_ladder,val-navi1-pcfic-2026-07-30-game1-round-total-26pt5,val-navi1-pcfic-2026-07-30-game1-round-total-24pt5,0.01,0.009,0.001,-0.0009,5.0,,,
 2026-07-30T16:59:32+00:00,val-navi1-pcfic-2026-07-30,over_ladder,val-navi1-pcfic-2026-07-30-game1-round-total-26pt5,val-navi1-pcfic-2026-07-30-game1-round-total-25pt5,0.01,0.009,0.001,-0.0009,5.0,,,
 2026-07-31T04:02:50+00:00,mlb-bos-oak-2026-07-30,over_ladder,mlb-bos-oak-2026-07-30-total-10pt5,mlb-bos-oak-2026-07-30-total-9pt5,0.38,0.36,0.02,0.005,5167.7,0.02,True,True
+2026-07-31T12:57:05+00:00,cs2-faze-mglz-2026-07-30,over_ladder,cs2-faze-mglz-2026-07-30-game1-round-total-21pt5,cs2-faze-mglz-2026-07-30-game1-round-total-18pt5,0.48,0.45,0.03,0.015,7.8,-0.06,False,True
