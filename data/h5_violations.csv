@@ -8669,3 +8669,6 @@ ts,event_slug,check,strong_slug,weak_slug,bid_strong,ask_weak,gross_gap,net_gap,
 2026-08-02T04:07:24+00:00,mlb-det-oak-2026-08-01,spread_implies_ml,mlb-det-oak-2026-08-01-spread-home-2pt5,mlb-det-oak-2026-08-01,0.01,0.004,0.006,0.0046,5.0,0.006,True,True
 2026-08-02T04:12:13+00:00,mlb-mil-laa-2026-08-01,spread_implies_ml,mlb-mil-laa-2026-08-01-spread-home-1pt5,mlb-mil-laa-2026-08-01,0.01,0.009,0.001,-0.0009,5.0,,,
 2026-08-02T04:12:13+00:00,mlb-mil-laa-2026-08-01,spread_implies_ml,mlb-mil-laa-2026-08-01-spread-home-2pt5,mlb-mil-laa-2026-08-01,0.01,0.009,0.001,-0.0009,5.0,,,
+2026-08-02T14:14:09+00:00,kor-jej-inc-2026-08-02-more-markets,over_ladder,kor-jej-inc-2026-08-02-first-half-total-2pt5,kor-jej-inc-2026-08-02-first-half-total-1pt5,0.999,0.995,0.004,0.0034,10.0,0.004,True,True
+2026-08-02T15:58:12+00:00,clf-fey-ata-2026-08-02-more-markets,over_ladder,clf-fey-ata-2026-08-02-total-2pt5,clf-fey-ata-2026-08-02-total-1pt5,0.991,0.99,0.001,-0.0009,13.6,,,
+2026-08-02T15:58:33+00:00,clf-fey-ata-2026-08-02-more-markets,over_ladder,clf-fey-ata-2026-08-02-total-2pt5,clf-fey-ata-2026-08-02-total-1pt5,0.991,0.99,0.001,-0.0009,313.6,,,
