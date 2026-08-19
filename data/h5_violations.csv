@@ -42786,3 +42786,8 @@ ts,event_slug,check,strong_slug,weak_slug,bid_strong,ask_weak,gross_gap,net_gap,
 2026-08-19T02:41:53+00:00,mlb-wsh-tex-2026-08-18,spread_implies_ml,mlb-wsh-tex-2026-08-18-spread-away-1pt5,mlb-wsh-tex-2026-08-18,0.01,0.005,0.005,0.0035,0.2,0.005,True,True
 2026-08-19T02:42:19+00:00,mlb-wsh-tex-2026-08-18,spread_implies_ml,mlb-wsh-tex-2026-08-18-spread-away-1pt5,mlb-wsh-tex-2026-08-18,0.01,0.005,0.005,0.0035,0.2,0.005,True,True
 2026-08-19T02:58:01+00:00,wnba-nyl-chi-2026-08-18,spread_implies_ml,wnba-nyl-chi-2026-08-18-spread-away-3pt5,wnba-nyl-chi-2026-08-18,0.02,0.01,0.01,0.007,21.0,0.01,True,True
+2026-08-19T14:05:44+00:00,lol-we-edg-2026-08-19,over_ladder,lol-we-edg-2026-08-19-game1-kill-over-36pt5,lol-we-edg-2026-08-19-game1-kill-over-33pt5,0.05,0.01,0.04,0.0343,20.0,0.04,True,True
+2026-08-19T17:09:47+00:00,cs2-fut-mgc-2026-08-19,over_ladder,cs2-fut-mgc-2026-08-19-game3-round-total-24pt5,cs2-fut-mgc-2026-08-19-game3-round-total-21pt5,0.18,0.01,0.17,0.1615,34.5,0.17,True,True
+2026-08-19T17:58:33+00:00,wta-kostyuk-andreev-2026-08-19,over_ladder,wta-kostyuk-andreev-2026-08-19-match-total-22pt5,wta-kostyuk-andreev-2026-08-19-match-total-21pt5,0.83,0.82,0.01,-0.005,5.0,,,
+2026-08-19T17:58:53+00:00,wta-kostyuk-andreev-2026-08-19,over_ladder,wta-kostyuk-andreev-2026-08-19-match-total-22pt5,wta-kostyuk-andreev-2026-08-19-match-total-21pt5,0.84,0.82,0.02,0.005,5.0,0.03,True,True
+2026-08-19T17:59:19+00:00,wta-kostyuk-andreev-2026-08-19,over_ladder,wta-kostyuk-andreev-2026-08-19-match-total-22pt5,wta-kostyuk-andreev-2026-08-19-match-total-21pt5,0.83,0.82,0.01,-0.005,22.0,,,
