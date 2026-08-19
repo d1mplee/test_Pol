@@ -42686,3 +42686,5 @@ ts,event_slug,check,strong_slug,weak_slug,bid_strong,ask_weak,gross_gap,net_gap,
 2026-08-18T03:10:08+00:00,mlb-atl-min-2026-08-17,cover_ladder,mlb-atl-min-2026-08-17-spread-home-4pt5,mlb-atl-min-2026-08-17-spread-home-2pt5,0.01,0.008,0.002,0.0002,5.0,-0.03,False,True
 2026-08-18T03:35:39+00:00,wnba-dal-gsv-2026-08-17,over_ladder,wnba-dal-gsv-2026-08-17-total-163pt5,wnba-dal-gsv-2026-08-17-total-162pt5,0.04,0.03,0.01,0.0032,4.6,-0.01,False,True
 2026-08-18T17:36:03+00:00,wta-sabalen-wa-2026-08-18,over_ladder,wta-sabalen-wa-2026-08-18-match-total-23pt5,wta-sabalen-wa-2026-08-18-match-total-22pt5,0.48,0.32,0.16,0.145,45.0,-0.01,False,True
+2026-08-18T23:10:46+00:00,wnba-ind-tor-2026-08-18,cover_ladder,wnba-ind-tor-2026-08-18-spread-away-10pt5,wnba-ind-tor-2026-08-18-spread-away-9pt5,0.61,0.59,0.02,0.005,5.0,-0.06,False,True
+2026-08-18T23:40:28+00:00,wnba-la-conn-2026-08-18,over_ladder,wnba-la-conn-2026-08-18-total-173pt5,wnba-la-conn-2026-08-18-total-172pt5,0.4,0.39,0.01,-0.005,5.0,,,
