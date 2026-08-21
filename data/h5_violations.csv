@@ -42896,3 +42896,17 @@ ts,event_slug,check,strong_slug,weak_slug,bid_strong,ask_weak,gross_gap,net_gap,
 2026-08-20T20:25:38+00:00,col-mot-scf-2026-08-20-more-markets,over_ladder,col-mot-scf-2026-08-20-total-2pt5,col-mot-scf-2026-08-20-total-0pt5,0.991,0.99,0.001,-0.0009,50.0,,,
 2026-08-20T20:33:35+00:00,mlb-atl-cws-2026-06-11,over_ladder,mlb-atl-cws-2026-06-11-total-11pt5,mlb-atl-cws-2026-06-11-total-7pt5,0.017,0.01,0.007,0.0043,0.8,-0.013,False,True
 2026-08-20T20:33:35+00:00,mlb-atl-cws-2026-06-11,over_ladder,mlb-atl-cws-2026-06-11-total-11pt5,mlb-atl-cws-2026-06-11-total-8pt5,0.017,0.012,0.005,0.0021,0.8,-0.003,False,True
+2026-08-21T01:42:10+00:00,mlb-nyy-bal-2026-08-20,spread_implies_ml,mlb-nyy-bal-2026-08-20-spread-home-1pt5,mlb-nyy-bal-2026-08-20,0.002,0.001,0.001,0.0007,500.0,0.0,False,True
+2026-08-21T01:45:39+00:00,mlb-laa-hou-2026-08-20,spread_implies_ml,mlb-laa-hou-2026-08-20-spread-home-1pt5,mlb-laa-hou-2026-08-20,0.01,0.008,0.002,0.0002,15.0,0.002,True,True
+2026-08-21T01:46:05+00:00,mlb-laa-hou-2026-08-20,spread_implies_ml,mlb-laa-hou-2026-08-20-spread-home-1pt5,mlb-laa-hou-2026-08-20,0.01,0.008,0.002,0.0002,43.7,0.002,True,True
+2026-08-21T01:46:31+00:00,mlb-laa-hou-2026-08-20,spread_implies_ml,mlb-laa-hou-2026-08-20-spread-home-1pt5,mlb-laa-hou-2026-08-20,0.01,0.008,0.002,0.0002,43.7,0.003,True,True
+2026-08-21T01:46:56+00:00,mlb-laa-hou-2026-08-20,spread_implies_ml,mlb-laa-hou-2026-08-20-spread-home-1pt5,mlb-laa-hou-2026-08-20,0.01,0.008,0.002,0.0002,3.5,0.002,True,True
+2026-08-21T01:47:22+00:00,mlb-laa-hou-2026-08-20,spread_implies_ml,mlb-laa-hou-2026-08-20-spread-home-1pt5,mlb-laa-hou-2026-08-20,0.01,0.008,0.002,0.0002,3.5,0.003,True,True
+2026-08-21T01:47:47+00:00,mlb-laa-hou-2026-08-20,spread_implies_ml,mlb-laa-hou-2026-08-20-spread-home-1pt5,mlb-laa-hou-2026-08-20,0.01,0.007,0.003,0.0013,3.5,0.003,True,True
+2026-08-21T01:47:47+00:00,mlb-laa-hou-2026-08-20,spread_exclusive,mlb-laa-hou-2026-08-20-spread-home-1pt5,mlb-laa-hou-2026-08-20-spread-away-1pt5,0.01,0.009,0.001,-0.0009,3.5,,,
+2026-08-21T02:11:01+00:00,nfl-lv-hou-2026-08-21,over_ladder,nfl-lv-hou-2026-08-21-total-38pt5,nfl-lv-hou-2026-08-21-total-37pt5,0.64,0.62,0.02,0.005,17.0,-0.07,False,False
+2026-08-21T02:18:51+00:00,wnba-conn-las-2026-08-20,over_ladder,wnba-conn-las-2026-08-20-total-167pt5,wnba-conn-las-2026-08-20-total-166pt5,0.52,0.51,0.01,-0.005,10.5,,,
+2026-08-21T03:28:35+00:00,nfl-sf-lac-2026-08-21,over_ladder,nfl-sf-lac-2026-08-21-total-39pt5,nfl-sf-lac-2026-08-21-total-38pt5,0.48,0.46,0.02,0.005,28.0,-0.04,False,True
+2026-08-21T04:44:11+00:00,dota2-ironwi-boombo-2026-08-20,over_ladder,dota2-ironwi-boombo-2026-08-20-game2-kill-over-50pt5,dota2-ironwi-boombo-2026-08-20-game2-kill-over-45pt5,0.008,0.005,0.003,0.0017,10.0,0.003,True,False
+2026-08-21T04:44:52+00:00,dota2-ironwi-boombo-2026-08-20,over_ladder,dota2-ironwi-boombo-2026-08-20-game2-kill-over-50pt5,dota2-ironwi-boombo-2026-08-20-game2-kill-over-45pt5,0.008,0.005,0.003,0.0017,10.0,0.003,True,True
+2026-08-21T04:45:18+00:00,dota2-ironwi-boombo-2026-08-20,over_ladder,dota2-ironwi-boombo-2026-08-20-game2-kill-over-50pt5,dota2-ironwi-boombo-2026-08-20-game2-kill-over-45pt5,0.008,0.005,0.003,0.0017,10.0,0.003,True,True
