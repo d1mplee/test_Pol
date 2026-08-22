@@ -42911,3 +42911,8 @@ ts,event_slug,check,strong_slug,weak_slug,bid_strong,ask_weak,gross_gap,net_gap,
 2026-08-21T04:44:52+00:00,dota2-ironwi-boombo-2026-08-20,over_ladder,dota2-ironwi-boombo-2026-08-20-game2-kill-over-50pt5,dota2-ironwi-boombo-2026-08-20-game2-kill-over-45pt5,0.008,0.005,0.003,0.0017,10.0,0.003,True,True
 2026-08-21T04:45:18+00:00,dota2-ironwi-boombo-2026-08-20,over_ladder,dota2-ironwi-boombo-2026-08-20-game2-kill-over-50pt5,dota2-ironwi-boombo-2026-08-20-game2-kill-over-45pt5,0.008,0.005,0.003,0.0017,10.0,0.003,True,True
 2026-08-21T17:46:44+00:00,spl-riy-nsr-2026-08-21-more-markets,cover_ladder,spl-riy-nsr-2026-08-21-spread-away-2pt5,spl-riy-nsr-2026-08-21-spread-away-1pt5,0.97,0.93,0.04,0.0306,17.3,0.03,True,True
+2026-08-21T21:34:14+00:00,mlb-atl-mil-2026-08-21,over_ladder,mlb-atl-mil-2026-08-21-f5-total-6pt5,mlb-atl-mil-2026-08-21-f5-total-2pt5,0.008,0.001,0.007,0.0061,15.0,,False,True
+2026-08-21T23:56:18+00:00,nfl-car-jax-2026-08-21,cover_ladder,nfl-car-jax-2026-08-21-spread-away-2pt5,nfl-car-jax-2026-08-21-spread-away-1pt5,0.59,0.58,0.01,-0.005,15.0,,,
+2026-08-21T23:56:38+00:00,nfl-car-jax-2026-08-21,cover_ladder,nfl-car-jax-2026-08-21-spread-away-2pt5,nfl-car-jax-2026-08-21-spread-away-1pt5,0.59,0.58,0.01,-0.005,202.0,,,
+2026-08-21T23:56:58+00:00,nfl-car-jax-2026-08-21,cover_ladder,nfl-car-jax-2026-08-21-spread-away-2pt5,nfl-car-jax-2026-08-21-spread-away-1pt5,0.59,0.58,0.01,-0.005,202.0,,,
+2026-08-21T23:57:19+00:00,nfl-car-jax-2026-08-21,cover_ladder,nfl-car-jax-2026-08-21-spread-away-2pt5,nfl-car-jax-2026-08-21-spread-away-1pt5,0.59,0.58,0.01,-0.005,202.0,,,
