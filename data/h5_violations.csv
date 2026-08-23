@@ -43123,3 +43123,10 @@ ts,event_slug,check,strong_slug,weak_slug,bid_strong,ask_weak,gross_gap,net_gap,
 2026-08-22T15:44:58+00:00,dota2-boombo-ts8-2026-08-22,over_ladder,dota2-boombo-ts8-2026-08-22-game2-kill-over-65pt5,dota2-boombo-ts8-2026-08-22-game2-kill-over-50pt5,0.01,0.001,0.009,0.0079,5.0,0.009,True,True
 2026-08-22T15:44:58+00:00,dota2-boombo-ts8-2026-08-22,over_ladder,dota2-boombo-ts8-2026-08-22-game2-kill-over-60pt5,dota2-boombo-ts8-2026-08-22-game2-kill-over-55pt5,0.01,0.001,0.009,0.0079,5.0,0.009,True,True
 2026-08-22T15:44:58+00:00,dota2-boombo-ts8-2026-08-22,over_ladder,dota2-boombo-ts8-2026-08-22-game2-kill-over-65pt5,dota2-boombo-ts8-2026-08-22-game2-kill-over-55pt5,0.01,0.001,0.009,0.0079,5.0,0.009,True,True
+2026-08-22T19:01:21+00:00,nfl-was-det-2026-08-22,over_ladder,nfl-was-det-2026-08-22-total-36pt5,nfl-was-det-2026-08-22-total-35pt5,0.004,0.001,0.003,0.0025,100.0,,False,True
+2026-08-22T19:01:47+00:00,nfl-was-det-2026-08-22,over_ladder,nfl-was-det-2026-08-22-total-37pt5,nfl-was-det-2026-08-22-total-35pt5,0.005,0.001,0.004,0.0034,60.0,0.004,True,True
+2026-08-22T19:01:47+00:00,nfl-was-det-2026-08-22,over_ladder,nfl-was-det-2026-08-22-total-37pt5,nfl-was-det-2026-08-22-total-36pt5,0.005,0.001,0.004,0.0034,60.0,0.004,True,True
+2026-08-22T20:47:09+00:00,mlb-tor-nyy-2026-08-22,over_ladder,mlb-tor-nyy-2026-08-22-total-8pt5,mlb-tor-nyy-2026-08-22-total-7pt5,0.48,0.47,0.01,-0.005,500.0,,,
+2026-08-22T20:47:29+00:00,mlb-tor-nyy-2026-08-22,over_ladder,mlb-tor-nyy-2026-08-22-total-8pt5,mlb-tor-nyy-2026-08-22-total-7pt5,0.47,0.46,0.01,-0.005,50.0,,,
+2026-08-22T20:48:10+00:00,mlb-tor-nyy-2026-08-22,over_ladder,mlb-tor-nyy-2026-08-22-total-8pt5,mlb-tor-nyy-2026-08-22-total-7pt5,0.48,0.47,0.01,-0.005,6.9,,,
+2026-08-22T23:07:05+00:00,wnba-ind-nyl-2026-08-22,over_ladder,wnba-ind-nyl-2026-08-22-total-188pt5,wnba-ind-nyl-2026-08-22-total-187pt5,0.42,0.41,0.01,-0.005,22.7,,,
