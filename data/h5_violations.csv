@@ -43153,3 +43153,4 @@ ts,event_slug,check,strong_slug,weak_slug,bid_strong,ask_weak,gross_gap,net_gap,
 2026-08-23T03:43:01+00:00,wnba-atl-phx-2026-08-22,cover_ladder,wnba-atl-phx-2026-08-22-spread-away-8pt5,wnba-atl-phx-2026-08-22-spread-away-5pt5,0.31,0.21,0.1,0.085,5.0,-0.84,False,True
 2026-08-23T04:04:29+00:00,wnba-atl-phx-2026-08-22,cover_ladder,wnba-atl-phx-2026-08-22-spread-away-7pt5,wnba-atl-phx-2026-08-22-spread-away-5pt5,0.98,0.97,0.01,0.0051,5.0,0.0,False,True
 2026-08-23T04:04:29+00:00,wnba-atl-phx-2026-08-22,cover_ladder,wnba-atl-phx-2026-08-22-spread-away-7pt5,wnba-atl-phx-2026-08-22-spread-away-6pt5,0.98,0.95,0.03,0.0233,25.0,0.01,True,True
+2026-08-23T17:53:53+00:00,tur-tra-iba-2026-08-23-more-markets,over_ladder,tur-tra-iba-2026-08-23-total-2pt5,tur-tra-iba-2026-08-23-total-1pt5,0.999,0.992,0.007,0.0061,12901.7,0.007,True,True
