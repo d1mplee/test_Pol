@@ -43195,3 +43195,5 @@ ts,event_slug,check,strong_slug,weak_slug,bid_strong,ask_weak,gross_gap,net_gap,
 2026-08-23T23:02:28+00:00,mlb-chc-sea-2026-08-23,spread_implies_ml,mlb-chc-sea-2026-08-23-spread-home-1pt5,mlb-chc-sea-2026-08-23,0.002,0.001,0.001,0.0007,576.8,0.001,True,True
 2026-08-23T23:02:54+00:00,mlb-chc-sea-2026-08-23,spread_implies_ml,mlb-chc-sea-2026-08-23-spread-home-1pt5,mlb-chc-sea-2026-08-23,0.002,0.001,0.001,0.0007,576.8,0.001,True,True
 2026-08-23T23:03:19+00:00,mlb-chc-sea-2026-08-23,spread_implies_ml,mlb-chc-sea-2026-08-23-spread-home-1pt5,mlb-chc-sea-2026-08-23,0.002,0.001,0.001,0.0007,576.8,0.001,True,True
+2026-08-24T16:07:56+00:00,wta-marino-ferro-2026-08-24,over_ladder,wta-marino-ferro-2026-08-24-match-total-23pt5,wta-marino-ferro-2026-08-24-match-total-21pt5,0.02,0.01,0.01,0.007,250.0,,False,True
+2026-08-24T16:07:56+00:00,wta-marino-ferro-2026-08-24,over_ladder,wta-marino-ferro-2026-08-24-match-total-23pt5,wta-marino-ferro-2026-08-24-match-total-22pt5,0.02,0.01,0.01,0.007,250.0,,False,True
