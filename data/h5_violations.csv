@@ -43206,3 +43206,11 @@ ts,event_slug,check,strong_slug,weak_slug,bid_strong,ask_weak,gross_gap,net_gap,
 2026-08-25T04:10:18+00:00,mlb-cle-laa-2026-08-24,over_ladder,mlb-cle-laa-2026-08-24-total-8pt5,mlb-cle-laa-2026-08-24-total-7pt5,0.078,0.07,0.008,-0.0057,4.8,,,
 2026-08-25T04:10:59+00:00,mlb-cle-laa-2026-08-24,over_ladder,mlb-cle-laa-2026-08-24-total-8pt5,mlb-cle-laa-2026-08-24-total-7pt5,0.092,0.09,0.002,-0.013,5.0,,,
 2026-08-25T04:11:40+00:00,mlb-cle-laa-2026-08-24,over_ladder,mlb-cle-laa-2026-08-24-total-8pt5,mlb-cle-laa-2026-08-24-total-7pt5,0.046,0.04,0.006,-0.0022,5.0,,,
+2026-08-25T16:03:39+00:00,itf-carbaja-cosano-2026-08-25,over_ladder,itf-carbaja-cosano-2026-08-25-match-total-22pt5,itf-carbaja-cosano-2026-08-25-match-total-21pt5,0.8,0.77,0.03,0.015,40.0,-0.1,False,True
+2026-08-25T16:04:25+00:00,itf-carbaja-cosano-2026-08-25,over_ladder,itf-carbaja-cosano-2026-08-25-match-total-22pt5,itf-carbaja-cosano-2026-08-25-match-total-21pt5,0.82,0.71,0.11,0.095,2341.5,-0.08,False,True
+2026-08-25T16:04:25+00:00,itf-carbaja-cosano-2026-08-25,over_ladder,itf-carbaja-cosano-2026-08-25-match-total-23pt5,itf-carbaja-cosano-2026-08-25-match-total-21pt5,0.73,0.71,0.02,0.005,6.8,-0.17,False,True
+2026-08-25T16:25:14+00:00,itf-carbaja-cosano-2026-08-25,over_ladder,itf-carbaja-cosano-2026-08-25-match-total-23pt5,itf-carbaja-cosano-2026-08-25-match-total-22pt5,0.85,0.81,0.04,0.025,51.4,0.04,True,True
+2026-08-25T17:14:44+00:00,itf-carbaja-cosano-2026-08-25,over_ladder,itf-carbaja-cosano-2026-08-25-match-total-23pt5,itf-carbaja-cosano-2026-08-25-match-total-21pt5,0.999,0.998,0.001,0.0007,104.3,0.001,True,True
+2026-08-25T17:14:44+00:00,itf-carbaja-cosano-2026-08-25,over_ladder,itf-carbaja-cosano-2026-08-25-match-total-23pt5,itf-carbaja-cosano-2026-08-25-match-total-22pt5,0.999,0.998,0.001,0.0007,3270.0,0.001,True,True
+2026-08-25T17:15:10+00:00,itf-carbaja-cosano-2026-08-25,over_ladder,itf-carbaja-cosano-2026-08-25-match-total-23pt5,itf-carbaja-cosano-2026-08-25-match-total-21pt5,0.999,0.998,0.001,0.0007,104.3,,False,True
+2026-08-25T17:15:10+00:00,itf-carbaja-cosano-2026-08-25,over_ladder,itf-carbaja-cosano-2026-08-25-match-total-23pt5,itf-carbaja-cosano-2026-08-25-match-total-22pt5,0.999,0.998,0.001,0.0007,11271.0,,False,True
