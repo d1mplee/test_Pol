@@ -43198,3 +43198,11 @@ ts,event_slug,check,strong_slug,weak_slug,bid_strong,ask_weak,gross_gap,net_gap,
 2026-08-24T16:07:56+00:00,wta-marino-ferro-2026-08-24,over_ladder,wta-marino-ferro-2026-08-24-match-total-23pt5,wta-marino-ferro-2026-08-24-match-total-21pt5,0.02,0.01,0.01,0.007,250.0,,False,True
 2026-08-24T16:07:56+00:00,wta-marino-ferro-2026-08-24,over_ladder,wta-marino-ferro-2026-08-24-match-total-23pt5,wta-marino-ferro-2026-08-24-match-total-22pt5,0.02,0.01,0.01,0.007,250.0,,False,True
 2026-08-25T00:14:11+00:00,wnba-gsv-min-2026-08-24,cover_ladder,wnba-gsv-min-2026-08-24-spread-home-6pt5,wnba-gsv-min-2026-08-24-spread-home-5pt5,0.5,0.49,0.01,-0.005,0.6,,,
+2026-08-25T03:50:10+00:00,wnba-atl-la-2026-08-24,cover_ladder,wnba-atl-la-2026-08-24-spread-away-10pt5,wnba-atl-la-2026-08-24-spread-away-9pt5,0.66,0.65,0.01,-0.005,25.0,,,
+2026-08-25T04:06:53+00:00,mlb-cle-laa-2026-08-24,over_ladder,mlb-cle-laa-2026-08-24-total-8pt5,mlb-cle-laa-2026-08-24-total-7pt5,0.035,0.032,0.003,-0.0035,11.0,,,
+2026-08-25T04:07:14+00:00,mlb-cle-laa-2026-08-24,over_ladder,mlb-cle-laa-2026-08-24-total-8pt5,mlb-cle-laa-2026-08-24-total-7pt5,0.071,0.07,0.001,-0.0121,4.8,,,
+2026-08-25T04:09:37+00:00,mlb-cle-laa-2026-08-24,over_ladder,mlb-cle-laa-2026-08-24-total-8pt5,mlb-cle-laa-2026-08-24-total-7pt5,0.074,0.07,0.004,-0.0094,4.8,,,
+2026-08-25T04:09:58+00:00,mlb-cle-laa-2026-08-24,over_ladder,mlb-cle-laa-2026-08-24-total-8pt5,mlb-cle-laa-2026-08-24-total-7pt5,0.078,0.07,0.008,-0.0057,4.8,,,
+2026-08-25T04:10:18+00:00,mlb-cle-laa-2026-08-24,over_ladder,mlb-cle-laa-2026-08-24-total-8pt5,mlb-cle-laa-2026-08-24-total-7pt5,0.078,0.07,0.008,-0.0057,4.8,,,
+2026-08-25T04:10:59+00:00,mlb-cle-laa-2026-08-24,over_ladder,mlb-cle-laa-2026-08-24-total-8pt5,mlb-cle-laa-2026-08-24-total-7pt5,0.092,0.09,0.002,-0.013,5.0,,,
+2026-08-25T04:11:40+00:00,mlb-cle-laa-2026-08-24,over_ladder,mlb-cle-laa-2026-08-24-total-8pt5,mlb-cle-laa-2026-08-24-total-7pt5,0.046,0.04,0.006,-0.0022,5.0,,,
