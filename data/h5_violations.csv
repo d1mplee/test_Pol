@@ -43214,3 +43214,5 @@ ts,event_slug,check,strong_slug,weak_slug,bid_strong,ask_weak,gross_gap,net_gap,
 2026-08-25T17:14:44+00:00,itf-carbaja-cosano-2026-08-25,over_ladder,itf-carbaja-cosano-2026-08-25-match-total-23pt5,itf-carbaja-cosano-2026-08-25-match-total-22pt5,0.999,0.998,0.001,0.0007,3270.0,0.001,True,True
 2026-08-25T17:15:10+00:00,itf-carbaja-cosano-2026-08-25,over_ladder,itf-carbaja-cosano-2026-08-25-match-total-23pt5,itf-carbaja-cosano-2026-08-25-match-total-21pt5,0.999,0.998,0.001,0.0007,104.3,,False,True
 2026-08-25T17:15:10+00:00,itf-carbaja-cosano-2026-08-25,over_ladder,itf-carbaja-cosano-2026-08-25-match-total-23pt5,itf-carbaja-cosano-2026-08-25-match-total-22pt5,0.999,0.998,0.001,0.0007,11271.0,,False,True
+2026-08-26T00:07:48+00:00,wnba-chi-conn-2026-08-25,over_ladder,wnba-chi-conn-2026-08-25-total-169pt5,wnba-chi-conn-2026-08-25-total-168pt5,0.41,0.4,0.01,-0.005,50.0,,,
+2026-08-26T00:09:51+00:00,mlb-tex-cws-2026-08-25,over_ladder,mlb-tex-cws-2026-08-25-total-7pt5,mlb-tex-cws-2026-08-25-total-6pt5,0.84,0.83,0.01,-0.005,0.8,,,
