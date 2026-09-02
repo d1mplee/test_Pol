@@ -43894,3 +43894,8 @@ ts,event_slug,check,strong_slug,weak_slug,bid_strong,ask_weak,gross_gap,net_gap,
 2026-09-02T04:59:19+00:00,mlb-sf-pit-2026-09-01,cover_ladder,mlb-sf-pit-2026-09-01-spread-home-6pt5,mlb-sf-pit-2026-09-01-spread-home-3pt5,0.07,0.01,0.06,0.0525,252.0,,False,True
 2026-09-02T04:59:19+00:00,mlb-sf-pit-2026-09-01,cover_ladder,mlb-sf-pit-2026-09-01-spread-home-6pt5,mlb-sf-pit-2026-09-01-spread-home-4pt5,0.07,0.01,0.06,0.0525,252.0,,False,True
 2026-09-02T04:59:19+00:00,mlb-sf-pit-2026-09-01,cover_ladder,mlb-sf-pit-2026-09-01-spread-home-6pt5,mlb-sf-pit-2026-09-01-spread-home-5pt5,0.07,0.03,0.04,0.0306,20.6,,False,True
+2026-09-02T16:02:23+00:00,wta-pliskov-shnaide-2026-09-02,over_ladder,wta-pliskov-shnaide-2026-09-02-match-total-22pt5,wta-pliskov-shnaide-2026-09-02-match-total-21pt5,0.42,0.41,0.01,-0.005,5.0,,,
+2026-09-02T16:02:44+00:00,wta-pliskov-shnaide-2026-09-02,over_ladder,wta-pliskov-shnaide-2026-09-02-match-total-22pt5,wta-pliskov-shnaide-2026-09-02-match-total-21pt5,0.42,0.41,0.01,-0.005,5.0,,,
+2026-09-02T16:03:04+00:00,wta-pliskov-shnaide-2026-09-02,over_ladder,wta-pliskov-shnaide-2026-09-02-match-total-22pt5,wta-pliskov-shnaide-2026-09-02-match-total-21pt5,0.42,0.41,0.01,-0.005,5.0,,,
+2026-09-02T16:03:25+00:00,wta-pliskov-shnaide-2026-09-02,over_ladder,wta-pliskov-shnaide-2026-09-02-match-total-22pt5,wta-pliskov-shnaide-2026-09-02-match-total-21pt5,0.42,0.41,0.01,-0.005,5.0,,,
+2026-09-02T16:09:15+00:00,wta-pliskov-shnaide-2026-09-02,over_ladder,wta-pliskov-shnaide-2026-09-02-match-total-23pt5,wta-pliskov-shnaide-2026-09-02-match-total-21pt5,0.56,0.41,0.15,0.135,0.0,-0.04,False,True
