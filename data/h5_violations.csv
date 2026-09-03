@@ -43912,3 +43912,6 @@ ts,event_slug,check,strong_slug,weak_slug,bid_strong,ask_weak,gross_gap,net_gap,
 2026-09-02T23:44:19+00:00,mlb-tor-cle-2026-09-02,spread_implies_ml,mlb-tor-cle-2026-09-02-spread-away-1pt5,mlb-tor-cle-2026-09-02,0.96,0.958,0.002,-0.0059,709.0,,,
 2026-09-03T04:22:39+00:00,lec-ame-mon-2026-09-02-more-markets,cover_ladder,lec-ame-mon-2026-09-02-first-half-spread-home-2pt5,lec-ame-mon-2026-09-02-first-half-spread-home-1pt5,0.02,0.01,0.01,0.007,23.0,0.01,True,True
 2026-09-03T05:13:28+00:00,mlb-stl-lad-2026-09-02,cover_ladder,mlb-stl-lad-2026-09-02-spread-away-3pt5,mlb-stl-lad-2026-09-02-spread-away-2pt5,0.01,0.008,0.002,0.0002,8.0,-0.009,False,True
+2026-09-03T11:09:28+00:00,cs2-is-nemi1-2026-09-03,over_ladder,cs2-is-nemi1-2026-09-03-game1-round-total-27pt5,cs2-is-nemi1-2026-09-03-game1-round-total-24pt5,0.01,0.001,0.009,0.0079,10.0,0.009,True,True
+2026-09-03T11:09:55+00:00,cs2-is-nemi1-2026-09-03,over_ladder,cs2-is-nemi1-2026-09-03-game1-round-total-27pt5,cs2-is-nemi1-2026-09-03-game1-round-total-24pt5,0.01,0.001,0.009,0.0079,10.0,0.009,True,True
+2026-09-03T11:11:23+00:00,lol-blg-we-2026-09-03,over_ladder,lol-blg-we-2026-09-03-game3-kill-over-33pt5,lol-blg-we-2026-09-03-game3-kill-over-30pt5,0.8,0.55,0.25,0.235,5.0,-0.06,False,True
