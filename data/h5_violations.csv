@@ -43910,3 +43910,5 @@ ts,event_slug,check,strong_slug,weak_slug,bid_strong,ask_weak,gross_gap,net_gap,
 2026-09-02T23:43:39+00:00,mlb-tor-cle-2026-09-02,spread_implies_ml,mlb-tor-cle-2026-09-02-spread-away-1pt5,mlb-tor-cle-2026-09-02,0.96,0.958,0.002,-0.0059,688.2,,,
 2026-09-02T23:43:59+00:00,mlb-tor-cle-2026-09-02,spread_implies_ml,mlb-tor-cle-2026-09-02-spread-away-1pt5,mlb-tor-cle-2026-09-02,0.96,0.958,0.002,-0.0059,709.0,,,
 2026-09-02T23:44:19+00:00,mlb-tor-cle-2026-09-02,spread_implies_ml,mlb-tor-cle-2026-09-02-spread-away-1pt5,mlb-tor-cle-2026-09-02,0.96,0.958,0.002,-0.0059,709.0,,,
+2026-09-03T04:22:39+00:00,lec-ame-mon-2026-09-02-more-markets,cover_ladder,lec-ame-mon-2026-09-02-first-half-spread-home-2pt5,lec-ame-mon-2026-09-02-first-half-spread-home-1pt5,0.02,0.01,0.01,0.007,23.0,0.01,True,True
+2026-09-03T05:13:28+00:00,mlb-stl-lad-2026-09-02,cover_ladder,mlb-stl-lad-2026-09-02-spread-away-3pt5,mlb-stl-lad-2026-09-02-spread-away-2pt5,0.01,0.008,0.002,0.0002,8.0,-0.009,False,True
