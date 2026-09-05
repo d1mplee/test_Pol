@@ -44056,3 +44056,5 @@ ts,event_slug,check,strong_slug,weak_slug,bid_strong,ask_weak,gross_gap,net_gap,
 2026-09-04T21:11:45+00:00,cfb-sjst-emich-2026-09-04,cover_ladder,cfb-sjst-emich-2026-09-04-4q-spread-home-2pt5,cfb-sjst-emich-2026-09-04-4q-spread-home-1pt5,0.49,0.48,0.01,-0.005,9.6,,,
 2026-09-04T21:12:06+00:00,cfb-sjst-emich-2026-09-04,cover_ladder,cfb-sjst-emich-2026-09-04-4q-spread-home-2pt5,cfb-sjst-emich-2026-09-04-4q-spread-home-1pt5,0.49,0.48,0.01,-0.005,9.6,,,
 2026-09-04T21:26:15+00:00,atp-lehecka-tsitsip-2026-09-04,over_ladder,atp-lehecka-tsitsip-2026-09-04-match-total-40pt5,atp-lehecka-tsitsip-2026-09-04-match-total-38pt5,0.54,0.5,0.04,0.025,18.7,0.04,True,True
+2026-09-05T04:30:03+00:00,atp-shelton-shapova-2026-09-04,over_ladder,atp-shelton-shapova-2026-09-04-match-total-40pt5,atp-shelton-shapova-2026-09-04-match-total-38pt5,0.42,0.41,0.01,-0.005,20.5,,,
+2026-09-05T05:16:12+00:00,atp-shelton-shapova-2026-09-04,over_ladder,atp-shelton-shapova-2026-09-04-match-total-40pt5,atp-shelton-shapova-2026-09-04-match-total-38pt5,0.991,0.86,0.131,0.1226,10.0,,False,True
