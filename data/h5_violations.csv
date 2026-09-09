@@ -44480,3 +44480,7 @@ ts,event_slug,check,strong_slug,weak_slug,bid_strong,ask_weak,gross_gap,net_gap,
 2026-09-09T04:29:08+00:00,mlb-cin-lad-2026-09-08,cover_ladder,mlb-cin-lad-2026-09-08-spread-home-4pt5,mlb-cin-lad-2026-09-08-spread-home-2pt5,0.01,0.009,0.001,-0.0009,8.0,,,
 2026-09-09T04:29:08+00:00,mlb-cin-lad-2026-09-08,cover_ladder,mlb-cin-lad-2026-09-08-spread-home-4pt5,mlb-cin-lad-2026-09-08-spread-home-3pt5,0.01,0.009,0.001,-0.0009,8.0,,,
 2026-09-09T07:40:55+00:00,cs2-9z-mibr-2026-09-09,over_ladder,cs2-9z-mibr-2026-09-09-game2-round-total-24pt5,cs2-9z-mibr-2026-09-09-game2-round-total-21pt5,0.1,0.01,0.09,0.0815,10.0,,False,True
+2026-09-09T11:42:04+00:00,cs2-nem-sin2-2026-09-09,over_ladder,cs2-nem-sin2-2026-09-09-game3-round-total-24pt5,cs2-nem-sin2-2026-09-09-game3-round-total-21pt5,0.07,0.01,0.06,0.0525,46.0,0.06,True,True
+2026-09-09T13:10:38+00:00,nfl-sf-la-2026-09-11,cover_ladder,nfl-sf-la-2026-09-11-4q-spread-home-4pt5,nfl-sf-la-2026-09-11-4q-spread-home-3pt5,0.45,0.4,0.05,0.035,261.8,0.05,True,True
+2026-09-09T13:11:04+00:00,nfl-sf-la-2026-09-11,cover_ladder,nfl-sf-la-2026-09-11-4q-spread-home-4pt5,nfl-sf-la-2026-09-11-4q-spread-home-3pt5,0.45,0.4,0.05,0.035,259.7,0.05,True,True
+2026-09-09T13:11:30+00:00,nfl-sf-la-2026-09-11,cover_ladder,nfl-sf-la-2026-09-11-4q-spread-home-4pt5,nfl-sf-la-2026-09-11-4q-spread-home-3pt5,0.45,0.4,0.05,0.035,259.7,0.05,True,True
