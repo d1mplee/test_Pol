@@ -44475,3 +44475,8 @@ ts,event_slug,check,strong_slug,weak_slug,bid_strong,ask_weak,gross_gap,net_gap,
 2026-09-09T01:45:58+00:00,mlb-col-nyy-2026-09-08,cover_ladder,mlb-col-nyy-2026-09-08-spread-home-4pt5,mlb-col-nyy-2026-09-08-spread-home-2pt5,0.01,0.006,0.004,0.0024,8.0,0.004,True,True
 2026-09-09T01:46:24+00:00,mlb-col-nyy-2026-09-08,cover_ladder,mlb-col-nyy-2026-09-08-spread-home-4pt5,mlb-col-nyy-2026-09-08-spread-home-2pt5,0.01,0.006,0.004,0.0024,8.0,0.004,True,True
 2026-09-09T01:46:50+00:00,mlb-col-nyy-2026-09-08,cover_ladder,mlb-col-nyy-2026-09-08-spread-home-4pt5,mlb-col-nyy-2026-09-08-spread-home-2pt5,0.01,0.006,0.004,0.0024,8.0,0.003,True,True
+2026-09-09T04:28:47+00:00,mlb-cin-lad-2026-09-08,cover_ladder,mlb-cin-lad-2026-09-08-spread-home-3pt5,mlb-cin-lad-2026-09-08-spread-home-2pt5,0.01,0.009,0.001,-0.0009,8.0,,,
+2026-09-09T04:28:47+00:00,mlb-cin-lad-2026-09-08,cover_ladder,mlb-cin-lad-2026-09-08-spread-home-4pt5,mlb-cin-lad-2026-09-08-spread-home-2pt5,0.01,0.009,0.001,-0.0009,8.0,,,
+2026-09-09T04:29:08+00:00,mlb-cin-lad-2026-09-08,cover_ladder,mlb-cin-lad-2026-09-08-spread-home-4pt5,mlb-cin-lad-2026-09-08-spread-home-2pt5,0.01,0.009,0.001,-0.0009,8.0,,,
+2026-09-09T04:29:08+00:00,mlb-cin-lad-2026-09-08,cover_ladder,mlb-cin-lad-2026-09-08-spread-home-4pt5,mlb-cin-lad-2026-09-08-spread-home-3pt5,0.01,0.009,0.001,-0.0009,8.0,,,
+2026-09-09T07:40:55+00:00,cs2-9z-mibr-2026-09-09,over_ladder,cs2-9z-mibr-2026-09-09-game2-round-total-24pt5,cs2-9z-mibr-2026-09-09-game2-round-total-21pt5,0.1,0.01,0.09,0.0815,10.0,,False,True
