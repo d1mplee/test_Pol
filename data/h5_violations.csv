@@ -45049,3 +45049,8 @@ ts,event_slug,check,strong_slug,weak_slug,bid_strong,ask_weak,gross_gap,net_gap,
 2026-09-10T01:44:16+00:00,nfl-ne-sea-2026-09-10,over_ladder,nfl-ne-sea-2026-09-10-total-52pt5,nfl-ne-sea-2026-09-10-total-47pt5,0.12,0.047,0.073,0.061,0.4,0.073,True,True
 2026-09-10T01:44:16+00:00,nfl-ne-sea-2026-09-10,over_ladder,nfl-ne-sea-2026-09-10-total-52pt5,nfl-ne-sea-2026-09-10-total-48pt5,0.12,0.04,0.08,0.0687,0.4,0.08,True,True
 2026-09-10T01:44:16+00:00,nfl-ne-sea-2026-09-10,over_ladder,nfl-ne-sea-2026-09-10-total-52pt5,nfl-ne-sea-2026-09-10-total-50pt5,0.12,0.02,0.1,0.0905,0.4,0.1,True,True
+2026-09-10T11:13:34+00:00,lol-t1a-dkc-2026-09-10,over_ladder,lol-t1a-dkc-2026-09-10-game4-kill-over-33pt5,lol-t1a-dkc-2026-09-10-game4-kill-over-30pt5,0.12,0.08,0.04,0.0251,8.6,0.11,True,True
+2026-09-10T13:37:14+00:00,nfl-sf-la-2026-09-11,cover_ladder,nfl-sf-la-2026-09-11-3q-spread-home-4pt5,nfl-sf-la-2026-09-11-3q-spread-home-3pt5,0.46,0.42,0.04,0.025,247.5,0.02,True,True
+2026-09-10T13:37:40+00:00,nfl-sf-la-2026-09-11,cover_ladder,nfl-sf-la-2026-09-11-3q-spread-home-4pt5,nfl-sf-la-2026-09-11-3q-spread-home-3pt5,0.47,0.45,0.02,0.005,75.0,0.03,True,True
+2026-09-10T13:38:06+00:00,nfl-sf-la-2026-09-11,cover_ladder,nfl-sf-la-2026-09-11-3q-spread-home-4pt5,nfl-sf-la-2026-09-11-3q-spread-home-3pt5,0.47,0.44,0.03,0.015,75.0,0.03,True,True
+2026-09-10T13:55:22+00:00,nfl-sf-la-2026-09-11,cover_ladder,nfl-sf-la-2026-09-11-3q-spread-home-4pt5,nfl-sf-la-2026-09-11-3q-spread-home-3pt5,0.44,0.41,0.03,0.015,5.0,0.03,True,False
