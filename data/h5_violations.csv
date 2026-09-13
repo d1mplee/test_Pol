@@ -47501,3 +47501,7 @@ ts,event_slug,check,strong_slug,weak_slug,bid_strong,ask_weak,gross_gap,net_gap,
 2026-09-13T06:02:55+00:00,cfb-nmxst-hawaii-2026-09-13,cover_ladder,cfb-nmxst-hawaii-2026-09-13-spread-away-6pt5,cfb-nmxst-hawaii-2026-09-13-spread-away-5pt5,0.128,0.1,0.028,0.013,5.0,0.029,True,True
 2026-09-13T06:03:23+00:00,cfb-nmxst-hawaii-2026-09-13,cover_ladder,cfb-nmxst-hawaii-2026-09-13-spread-away-6pt5,cfb-nmxst-hawaii-2026-09-13-spread-away-5pt5,0.101,0.1,0.001,-0.014,5.0,,,
 2026-09-13T06:03:45+00:00,cfb-nmxst-hawaii-2026-09-13,cover_ladder,cfb-nmxst-hawaii-2026-09-13-spread-away-6pt5,cfb-nmxst-hawaii-2026-09-13-spread-away-5pt5,0.113,0.1,0.013,-0.002,5.0,,,
+2026-09-13T15:30:11+00:00,bun-elv-bay-2026-09-13-more-markets,cover_ladder,bun-elv-bay-2026-09-13-spread-home-2pt5,bun-elv-bay-2026-09-13-spread-home-1pt5,0.002,0.001,0.001,0.0007,50.0,0.001,True,True
+2026-09-13T15:30:38+00:00,bun-elv-bay-2026-09-13-more-markets,cover_ladder,bun-elv-bay-2026-09-13-spread-home-2pt5,bun-elv-bay-2026-09-13-spread-home-1pt5,0.002,0.001,0.001,0.0007,50.0,0.001,True,True
+2026-09-13T15:31:05+00:00,bun-elv-bay-2026-09-13-more-markets,cover_ladder,bun-elv-bay-2026-09-13-spread-home-2pt5,bun-elv-bay-2026-09-13-spread-home-1pt5,0.002,0.001,0.001,0.0007,50.0,0.001,True,True
+2026-09-13T15:31:32+00:00,bun-elv-bay-2026-09-13-more-markets,cover_ladder,bun-elv-bay-2026-09-13-spread-home-2pt5,bun-elv-bay-2026-09-13-spread-home-1pt5,0.002,0.001,0.001,0.0007,50.0,0.001,True,True
