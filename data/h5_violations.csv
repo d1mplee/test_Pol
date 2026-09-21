@@ -52971,3 +52971,4 @@ ts,event_slug,check,strong_slug,weak_slug,bid_strong,ask_weak,gross_gap,net_gap,
 2026-09-20T23:08:04+00:00,nfl-lv-lac-2026-09-20,over_ladder,nfl-lv-lac-2026-09-20-total-44pt5,nfl-lv-lac-2026-09-20-total-43pt5,0.02,0.01,0.01,0.007,15.0,0.0,False,True
 2026-09-20T23:14:20+00:00,mls-mia-sdg-2026-09-20-more-markets,cover_ladder,mls-mia-sdg-2026-09-20-spread-home-4pt5,mls-mia-sdg-2026-09-20-spread-home-3pt5,0.06,0.01,0.05,0.0434,15.0,0.05,True,True
 2026-09-21T01:46:34+00:00,nfl-ind-kc-2026-09-21,cover_ladder,nfl-ind-kc-2026-09-21-spread-home-5pt5,nfl-ind-kc-2026-09-21-spread-home-4pt5,0.38,0.37,0.01,-0.005,149.1,,,
+2026-09-21T15:57:45+00:00,wta-quevedo-podoros-2026-09-20,over_ladder,wta-quevedo-podoros-2026-09-20-match-total-22pt5,wta-quevedo-podoros-2026-09-20-match-total-21pt5,0.996,0.99,0.006,0.0046,17.7,0.006,True,True
