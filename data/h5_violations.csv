@@ -54852,3 +54852,9 @@ ts,event_slug,check,strong_slug,weak_slug,bid_strong,ask_weak,gross_gap,net_gap,
 2026-09-26T02:39:37+00:00,cfb-nw-ind-2026-09-25,cover_ladder,cfb-nw-ind-2026-09-25-spread-home-21pt5,cfb-nw-ind-2026-09-25-spread-home-17pt5,0.05,0.04,0.01,0.0014,0.8,0.0,False,True
 2026-09-26T02:40:05+00:00,cfb-nw-ind-2026-09-25,cover_ladder,cfb-nw-ind-2026-09-25-spread-home-21pt5,cfb-nw-ind-2026-09-25-spread-home-20pt5,0.05,0.048,0.002,-0.0073,0.8,,,
 2026-09-26T02:41:14+00:00,cfb-nw-ind-2026-09-25,cover_ladder,cfb-nw-ind-2026-09-25-spread-home-21pt5,cfb-nw-ind-2026-09-25-spread-home-20pt5,0.05,0.049,0.001,-0.0084,0.8,,,
+2026-09-26T04:30:53+00:00,nfl-la-den-2026-09-28,cover_ladder,nfl-la-den-2026-09-28-2q-spread-away-10pt5,nfl-la-den-2026-09-28-2q-spread-away-7pt5,0.25,0.2,0.05,0.035,1.0,,False,True
+2026-09-26T04:38:46+00:00,cfb-clmsn-cah-2026-09-25,spread_implies_ml,cfb-clmsn-cah-2026-09-25-spread-away-1pt5,cfb-clmsn-cah-2026-09-25,0.63,0.61,0.02,0.005,170.0,0.01,True,True
+2026-09-26T05:43:05+00:00,cfb-clmsn-cah-2026-09-25,spread_implies_ml,cfb-clmsn-cah-2026-09-25-spread-home-3pt5,cfb-clmsn-cah-2026-09-25,0.011,0.01,0.001,-0.0011,113.5,,,
+2026-09-26T05:53:09+00:00,cfb-clmsn-cah-2026-09-25,over_ladder,cfb-clmsn-cah-2026-09-25-total-42pt5,cfb-clmsn-cah-2026-09-25-total-34pt5,0.07,0.05,0.02,0.0087,1641.7,-0.01,False,True
+2026-09-26T05:53:09+00:00,cfb-clmsn-cah-2026-09-25,over_ladder,cfb-clmsn-cah-2026-09-25-total-42pt5,cfb-clmsn-cah-2026-09-25-total-40pt5,0.07,0.05,0.02,0.0087,1641.7,-0.02,False,True
+2026-09-26T05:53:37+00:00,cfb-clmsn-cah-2026-09-25,over_ladder,cfb-clmsn-cah-2026-09-25-total-36pt5,cfb-clmsn-cah-2026-09-25-total-34pt5,0.03,0.02,0.01,0.0051,5.0,,False,True
