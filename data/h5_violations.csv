@@ -55091,3 +55091,16 @@ ts,event_slug,check,strong_slug,weak_slug,bid_strong,ask_weak,gross_gap,net_gap,
 2026-09-27T01:59:26+00:00,cfb-kanst-cin-2026-09-26,spread_implies_ml,cfb-kanst-cin-2026-09-26-spread-away-1pt5,cfb-kanst-cin-2026-09-26,0.31,0.3,0.01,-0.005,292.9,,,
 2026-09-27T02:10:15+00:00,cfb-ore-usc-2026-09-26,cover_ladder,cfb-ore-usc-2026-09-26-spread-away-9pt5,cfb-ore-usc-2026-09-26-spread-away-8pt5,0.33,0.32,0.01,-0.005,10.0,,,
 2026-09-27T02:10:15+00:00,cfb-txam-lsu-2026-09-26,cover_ladder,cfb-txam-lsu-2026-09-26-spread-home-28pt5,cfb-txam-lsu-2026-09-26-spread-home-25pt5,0.44,0.42,0.02,0.005,5.0,0.02,True,False
+2026-09-27T11:47:51+00:00,kor-gwo-inc-2026-09-27-more-markets,over_ladder,kor-gwo-inc-2026-09-27-total-2pt5,kor-gwo-inc-2026-09-27-total-1pt5,0.01,0.009,0.001,-0.0009,88.0,,,
+2026-09-27T13:23:55+00:00,unl-lit-aze-2026-09-27-more-markets,over_ladder,unl-lit-aze-2026-09-27-total-7pt5,unl-lit-aze-2026-09-27-total-5pt5,0.18,0.127,0.053,0.038,0.0,0.075,True,True
+2026-09-27T13:24:22+00:00,unl-lit-aze-2026-09-27-more-markets,over_ladder,unl-lit-aze-2026-09-27-total-7pt5,unl-lit-aze-2026-09-27-total-5pt5,0.18,0.101,0.079,0.064,0.0,0.08,True,True
+2026-09-27T13:24:49+00:00,unl-lit-aze-2026-09-27-more-markets,over_ladder,unl-lit-aze-2026-09-27-total-7pt5,unl-lit-aze-2026-09-27-total-5pt5,0.18,0.099,0.081,0.066,0.0,0.081,True,True
+2026-09-27T13:24:49+00:00,unl-lit-aze-2026-09-27-more-markets,over_ladder,unl-lit-aze-2026-09-27-total-7pt5,unl-lit-aze-2026-09-27-total-6pt5,0.18,0.031,0.149,0.1385,0.0,-0.183,False,True
+2026-09-27T17:03:48+00:00,nfl-kc-mia-2026-09-27,cover_ladder,nfl-kc-mia-2026-09-27-spread-away-8pt5,nfl-kc-mia-2026-09-27-spread-away-7pt5,0.6,0.58,0.02,0.005,1983.8,0.02,True,True
+2026-09-27T17:03:48+00:00,nfl-ten-nyg-2026-09-27,spread_implies_ml,nfl-ten-nyg-2026-09-27-spread-away-2pt5,nfl-ten-nyg-2026-09-27,0.39,0.37,0.02,0.005,60.2,0.01,True,True
+2026-09-27T17:03:48+00:00,nfl-cin-pit-2026-09-27,cover_ladder,nfl-cin-pit-2026-09-27-spread-away-2pt5,nfl-cin-pit-2026-09-27-spread-away-1pt5,0.56,0.54,0.02,0.005,5.0,0.0,False,True
+2026-09-27T17:04:15+00:00,nfl-lac-buf-2026-09-27,spread_implies_ml,nfl-lac-buf-2026-09-27-spread-home-1pt5,nfl-lac-buf-2026-09-27,0.7,0.69,0.01,-0.005,205.0,,,
+2026-09-27T17:06:47+00:00,nfl-kc-mia-2026-09-27,cover_ladder,nfl-kc-mia-2026-09-27-spread-away-16pt5,nfl-kc-mia-2026-09-27-spread-away-14pt5,0.48,0.47,0.01,-0.005,1652.0,,,
+2026-09-27T17:06:47+00:00,nfl-nyj-det-2026-09-27,spread_implies_ml,nfl-nyj-det-2026-09-27-spread-away-1pt5,nfl-nyj-det-2026-09-27,0.24,0.23,0.01,-0.005,2158.0,,,
+2026-09-27T17:10:07+00:00,nfl-lac-buf-2026-09-27,over_ladder,nfl-lac-buf-2026-09-27-total-46pt5,nfl-lac-buf-2026-09-27-total-45pt5,0.68,0.67,0.01,-0.005,949.5,,,
+2026-09-27T17:10:51+00:00,nfl-nyj-det-2026-09-27,cover_ladder,nfl-nyj-det-2026-09-27-spread-away-5pt5,nfl-nyj-det-2026-09-27-spread-away-3pt5,0.13,0.12,0.01,-0.005,50.0,,,
