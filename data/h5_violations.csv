@@ -55662,3 +55662,7 @@ ts,event_slug,check,strong_slug,weak_slug,bid_strong,ask_weak,gross_gap,net_gap,
 2026-09-29T17:52:49+00:00,unl-svk-kaz-2026-09-29-more-markets,cover_ladder,unl-svk-kaz-2026-09-29-spread-away-5pt5,unl-svk-kaz-2026-09-29-spread-away-1pt5,0.02,0.012,0.008,0.0049,5.0,,False,True
 2026-09-29T17:52:49+00:00,unl-svk-kaz-2026-09-29-more-markets,cover_ladder,unl-svk-kaz-2026-09-29-spread-away-5pt5,unl-svk-kaz-2026-09-29-spread-away-2pt5,0.02,0.003,0.017,0.0147,5.0,,False,True
 2026-09-29T17:52:49+00:00,unl-svk-kaz-2026-09-29-more-markets,cover_ladder,unl-svk-kaz-2026-09-29-spread-away-5pt5,unl-svk-kaz-2026-09-29-spread-away-3pt5,0.02,0.005,0.015,0.0125,5.0,,False,True
+2026-09-30T00:00:20+00:00,wnba-las-ind-2026-09-29,over_ladder,wnba-las-ind-2026-09-29-total-183pt5,wnba-las-ind-2026-09-29-total-182pt5,0.21,0.2,0.01,-0.005,20.0,,,
+2026-09-30T00:32:33+00:00,wnba-las-ind-2026-09-29,spread_implies_ml,wnba-las-ind-2026-09-29-spread-home-1pt5,wnba-las-ind-2026-09-29,0.96,0.953,0.007,-0.0013,29.9,,,
+2026-09-30T03:09:24+00:00,mlb-bos-nyy-2026-09-29,over_ladder,mlb-bos-nyy-2026-09-29-total-6pt5,mlb-bos-nyy-2026-09-29-total-5pt5,0.999,0.99,0.009,0.0079,9.0,,False,True
+2026-09-30T03:09:24+00:00,mlb-bos-nyy-2026-09-29,over_ladder,mlb-bos-nyy-2026-09-29-total-7pt5,mlb-bos-nyy-2026-09-29-total-5pt5,0.991,0.99,0.001,-0.0009,9.0,,,
