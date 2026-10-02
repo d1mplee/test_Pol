@@ -56352,3 +56352,4 @@ ts,event_slug,check,strong_slug,weak_slug,bid_strong,ask_weak,gross_gap,net_gap,
 2026-10-02T03:43:44+00:00,nfl-pit-cle-2026-10-02,over_ladder,nfl-pit-cle-2026-10-02-total-60pt5,nfl-pit-cle-2026-10-02-total-56pt5,0.002,0.001,0.001,0.0007,5.0,0.0,False,True
 2026-10-02T03:47:01+00:00,nhl-fla-sj-2026-10-01,spread_implies_ml,nhl-fla-sj-2026-10-01-spread-away-1pt5,nhl-fla-sj-2026-10-01,0.08,0.07,0.01,-0.0039,10.0,,,
 2026-10-02T03:57:16+00:00,cfb-ntx-tulsa-2026-10-01,spread_implies_ml,cfb-ntx-tulsa-2026-10-01-spread-away-1pt5,cfb-ntx-tulsa-2026-10-01,0.82,0.81,0.01,-0.005,500.0,,,
+2026-10-02T09:20:10+00:00,atp-jacquet-darderi-2026-10-02,over_ladder,atp-jacquet-darderi-2026-10-02-match-total-23pt5,atp-jacquet-darderi-2026-10-02-match-total-22pt5,0.5,0.49,0.01,-0.005,10.0,,,
