@@ -58447,3 +58447,5 @@ ts,event_slug,check,strong_slug,weak_slug,bid_strong,ask_weak,gross_gap,net_gap,
 2026-10-09T03:17:32+00:00,nfl-tb-dal-2026-10-09,spread_exclusive,nfl-tb-dal-2026-10-09-spread-home-2pt5,nfl-tb-dal-2026-10-09-spread-away-1pt5,0.02,0.017,0.003,-0.0006,0.1,,,
 2026-10-09T03:17:32+00:00,nfl-tb-dal-2026-10-09,spread_exclusive,nfl-tb-dal-2026-10-09-spread-home-2pt5,nfl-tb-dal-2026-10-09-spread-away-7pt5,0.02,0.017,0.003,-0.0006,0.1,,,
 2026-10-09T03:27:56+00:00,nba-sac-lal-2026-10-08,cover_ladder,nba-sac-lal-2026-10-08-spread-home-10pt5,nba-sac-lal-2026-10-08-spread-home-9pt5,0.57,0.56,0.01,-0.005,250.0,,,
+2026-10-09T08:24:09+00:00,wta-zhen-svitoli-2026-10-08,over_ladder,wta-zhen-svitoli-2026-10-08-match-total-22pt5,wta-zhen-svitoli-2026-10-08-match-total-21pt5,0.59,0.58,0.01,-0.005,124.4,,,
+2026-10-09T08:25:37+00:00,wta-zhen-svitoli-2026-10-08,over_ladder,wta-zhen-svitoli-2026-10-08-match-total-22pt5,wta-zhen-svitoli-2026-10-08-match-total-21pt5,0.66,0.6,0.06,0.045,52.0,0.06,True,True
