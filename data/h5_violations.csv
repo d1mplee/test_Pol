@@ -58867,3 +58867,12 @@ ts,event_slug,check,strong_slug,weak_slug,bid_strong,ask_weak,gross_gap,net_gap,
 2026-10-10T05:44:07+00:00,cfb-iowast-byu-2026-10-09,over_ladder,cfb-iowast-byu-2026-10-09-total-67pt5,cfb-iowast-byu-2026-10-09-total-51pt5,0.01,0.009,0.001,-0.0009,50.0,,,
 2026-10-10T09:16:39+00:00,nfl-dal-phi-2026-10-27,over_ladder,nfl-dal-phi-2026-10-27-total-32pt5,nfl-dal-phi-2026-10-27-total-24pt5,0.02,0.01,0.01,0.007,250.0,-0.97,False,True
 2026-10-10T09:53:50+00:00,nfl-dal-phi-2026-10-27,over_ladder,nfl-dal-phi-2026-10-27-total-32pt5,nfl-dal-phi-2026-10-27-total-30pt5,0.02,0.01,0.01,0.007,140.0,0.01,True,True
+2026-10-10T13:38:24+00:00,atp-baez-vachero-2026-10-09,over_ladder,atp-baez-vachero-2026-10-09-match-total-22pt5,atp-baez-vachero-2026-10-09-match-total-21pt5,0.4,0.35,0.05,0.035,12.5,-0.11,False,True
+2026-10-10T14:44:19+00:00,dota2-pari-aur1-2026-10-10,over_ladder,dota2-pari-aur1-2026-10-10-game1-kill-over-60pt5,dota2-pari-aur1-2026-10-10-game1-kill-over-55pt5,0.99,0.98,0.01,0.0071,44.9,0.01,True,True
+2026-10-10T14:44:19+00:00,dota2-pari-aur1-2026-10-10,over_ladder,dota2-pari-aur1-2026-10-10-game1-kill-over-65pt5,dota2-pari-aur1-2026-10-10-game1-kill-over-55pt5,0.99,0.98,0.01,0.0071,44.9,0.01,True,True
+2026-10-10T14:44:47+00:00,dota2-pari-aur1-2026-10-10,over_ladder,dota2-pari-aur1-2026-10-10-game1-kill-over-60pt5,dota2-pari-aur1-2026-10-10-game1-kill-over-55pt5,0.99,0.98,0.01,0.0071,44.9,0.01,True,True
+2026-10-10T14:44:47+00:00,dota2-pari-aur1-2026-10-10,over_ladder,dota2-pari-aur1-2026-10-10-game1-kill-over-65pt5,dota2-pari-aur1-2026-10-10-game1-kill-over-55pt5,0.99,0.98,0.01,0.0071,44.9,0.01,True,True
+2026-10-10T16:14:24+00:00,lal-ray-bil-2026-10-10-more-markets,over_ladder,lal-ray-bil-2026-10-10-total-4pt5,lal-ray-bil-2026-10-10-total-3pt5,0.05,0.01,0.04,0.0343,5.2,0.04,True,True
+2026-10-10T17:03:24+00:00,cfb-arz-wvir-2026-10-10,spread_implies_ml,cfb-arz-wvir-2026-10-10-spread-home-1pt5,cfb-arz-wvir-2026-10-10,0.25,0.24,0.01,-0.005,5.0,,,
+2026-10-10T17:05:39+00:00,fl1-lil-hac-2026-10-10-more-markets,over_ladder,fl1-lil-hac-2026-10-10-total-4pt5,fl1-lil-hac-2026-10-10-total-3pt5,0.01,0.009,0.001,-0.0009,1.0,,,
+2026-10-10T17:31:56+00:00,cfb-ucf-okst-2026-10-10,cover_ladder,cfb-ucf-okst-2026-10-10-spread-home-9pt5,cfb-ucf-okst-2026-10-10-spread-home-8pt5,0.4,0.39,0.01,-0.005,0.8,,,
