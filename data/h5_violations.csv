@@ -59850,3 +59850,13 @@ ts,event_slug,check,strong_slug,weak_slug,bid_strong,ask_weak,gross_gap,net_gap,
 2026-10-15T16:30:20+00:00,spl-kha-fay-2026-10-15-more-markets,cover_ladder,spl-kha-fay-2026-10-15-spread-home-5pt5,spl-kha-fay-2026-10-15-spread-home-3pt5,0.01,0.009,0.001,-0.0009,5.0,,,
 2026-10-15T16:31:27+00:00,spl-kha-fay-2026-10-15-more-markets,cover_ladder,spl-kha-fay-2026-10-15-spread-home-4pt5,spl-kha-fay-2026-10-15-spread-home-3pt5,0.01,0.009,0.001,-0.0009,5.0,,,
 2026-10-15T16:31:50+00:00,spl-kha-fay-2026-10-15-more-markets,cover_ladder,spl-kha-fay-2026-10-15-spread-home-4pt5,spl-kha-fay-2026-10-15-spread-home-3pt5,0.01,0.009,0.001,-0.0009,5.0,,,
+2026-10-15T16:43:59+00:00,spl-kha-fay-2026-10-15-more-markets,cover_ladder,spl-kha-fay-2026-10-15-spread-away-2pt5,spl-kha-fay-2026-10-15-spread-away-1pt5,0.004,0.001,0.003,0.0025,5.2,0.003,True,True
+2026-10-15T16:45:35+00:00,spl-kha-fay-2026-10-15-more-markets,cover_ladder,spl-kha-fay-2026-10-15-spread-away-2pt5,spl-kha-fay-2026-10-15-spread-away-1pt5,0.004,0.001,0.003,0.0025,7.1,0.003,True,True
+2026-10-15T16:46:02+00:00,spl-kha-fay-2026-10-15-more-markets,cover_ladder,spl-kha-fay-2026-10-15-spread-away-2pt5,spl-kha-fay-2026-10-15-spread-away-1pt5,0.004,0.001,0.003,0.0025,7.1,,False,True
+2026-10-15T17:01:42+00:00,nfl-car-phi-2026-10-18,spread_implies_ml,nfl-car-phi-2026-10-18-spread-home-1pt5,nfl-car-phi-2026-10-18,0.43,0.41,0.02,0.005,49.3,0.01,True,True
+2026-10-15T17:02:10+00:00,nfl-car-phi-2026-10-18,spread_implies_ml,nfl-car-phi-2026-10-18-spread-home-1pt5,nfl-car-phi-2026-10-18,0.43,0.42,0.01,-0.005,709.0,,,
+2026-10-15T17:02:32+00:00,nfl-car-phi-2026-10-18,spread_implies_ml,nfl-car-phi-2026-10-18-spread-home-1pt5,nfl-car-phi-2026-10-18,0.43,0.42,0.01,-0.005,656.4,,,
+2026-10-15T18:13:59+00:00,lol-c9-kc-2026-10-15,over_ladder,lol-c9-kc-2026-10-15-game1-kill-over-27pt5,lol-c9-kc-2026-10-15-game1-kill-over-24pt5,0.71,0.7,0.01,-0.005,10.8,,,
+2026-10-15T19:33:40+00:00,mlb-tb-cle-2026-10-15,over_ladder,mlb-tb-cle-2026-10-15-total-6pt5,mlb-tb-cle-2026-10-15-total-5pt5,0.24,0.23,0.01,-0.005,995.0,,,
+2026-10-15T19:34:03+00:00,mlb-tb-cle-2026-10-15,over_ladder,mlb-tb-cle-2026-10-15-total-6pt5,mlb-tb-cle-2026-10-15-total-5pt5,0.24,0.23,0.01,-0.005,995.0,,,
+2026-10-15T19:34:26+00:00,mlb-tb-cle-2026-10-15,over_ladder,mlb-tb-cle-2026-10-15-total-6pt5,mlb-tb-cle-2026-10-15-total-5pt5,0.24,0.23,0.01,-0.005,995.0,,,
