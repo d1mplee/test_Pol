@@ -59991,3 +59991,6 @@ ts,event_slug,check,strong_slug,weak_slug,bid_strong,ask_weak,gross_gap,net_gap,
 2026-10-17T02:12:14+00:00,cfb-wash-pur-2026-10-16,spread_implies_ml,cfb-wash-pur-2026-10-16-spread-away-1pt5,cfb-wash-pur-2026-10-16,0.69,0.67,0.02,0.005,270.0,0.02,True,True
 2026-10-17T02:12:43+00:00,cfb-wash-pur-2026-10-16,spread_implies_ml,cfb-wash-pur-2026-10-16-spread-away-1pt5,cfb-wash-pur-2026-10-16,0.68,0.67,0.01,-0.005,735.5,,,
 2026-10-17T02:13:30+00:00,cfb-mphs-tulane-2026-10-16,cover_ladder,cfb-mphs-tulane-2026-10-16-spread-away-7pt5,cfb-mphs-tulane-2026-10-16-spread-away-6pt5,0.021,0.019,0.002,-0.0019,5.0,,,
+2026-10-17T04:11:34+00:00,nba-den-lal-2026-10-16,over_ladder,nba-den-lal-2026-10-16-total-230pt5,nba-den-lal-2026-10-16-total-229pt5,0.38,0.37,0.01,-0.005,23.7,,,
+2026-10-17T04:28:20+00:00,nba-por-gsw-2026-10-16,spread_implies_ml,nba-por-gsw-2026-10-16-spread-away-1pt5,nba-por-gsw-2026-10-16,0.01,0.008,0.002,0.0002,10.0,-0.002,False,True
+2026-10-17T04:28:47+00:00,nba-por-gsw-2026-10-16,spread_implies_ml,nba-por-gsw-2026-10-16-spread-away-1pt5,nba-por-gsw-2026-10-16,0.01,0.009,0.001,-0.0009,30.0,,,
