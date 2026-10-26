@@ -64858,3 +64858,4 @@ ts,event_slug,check,strong_slug,weak_slug,bid_strong,ask_weak,gross_gap,net_gap,
 2026-10-26T01:46:48+00:00,nba-det-phi-2026-10-25,over_ladder,nba-det-phi-2026-10-25-total-227pt5,nba-det-phi-2026-10-25-total-226pt5,0.032,0.02,0.012,0.0069,26.3,0.012,True,True
 2026-10-26T01:55:30+00:00,nba-det-phi-2026-10-25,over_ladder,nba-det-phi-2026-10-25-total-227pt5,nba-det-phi-2026-10-25-total-226pt5,0.025,0.02,0.005,0.0006,26.3,-0.01,False,True
 2026-10-26T02:04:13+00:00,nfl-kc-sea-2026-10-26,spread_implies_ml,nfl-kc-sea-2026-10-26-spread-home-1pt5,nfl-kc-sea-2026-10-26,0.88,0.87,0.01,-0.005,19.0,,,
+2026-10-26T15:49:51+00:00,cs2-ts7-furia-2026-10-26,over_ladder,cs2-ts7-furia-2026-10-26-game2-round-total-27pt5,cs2-ts7-furia-2026-10-26-game2-round-total-21pt5,0.02,0.001,0.019,0.0169,50.0,0.019,True,True
