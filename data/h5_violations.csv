@@ -65053,3 +65053,7 @@ ts,event_slug,check,strong_slug,weak_slug,bid_strong,ask_weak,gross_gap,net_gap,
 2026-10-27T03:16:29+00:00,nfl-dal-phi-2026-10-27,spread_exclusive,nfl-dal-phi-2026-10-27-spread-home-4pt5,nfl-dal-phi-2026-10-27-spread-away-5pt5,0.003,0.001,0.002,0.0016,237.2,0.002,True,True
 2026-10-27T03:16:29+00:00,nfl-dal-phi-2026-10-27,spread_exclusive,nfl-dal-phi-2026-10-27-spread-home-4pt5,nfl-dal-phi-2026-10-27-spread-away-6pt5,0.003,0.001,0.002,0.0016,237.2,0.002,True,True
 2026-10-27T03:16:29+00:00,nfl-dal-phi-2026-10-27,spread_exclusive,nfl-dal-phi-2026-10-27-spread-home-4pt5,nfl-dal-phi-2026-10-27-spread-away-7pt5,0.003,0.001,0.002,0.0016,55.0,0.002,True,True
+2026-10-27T07:49:39+00:00,nfl-chi-sea-2026-11-03,cover_ladder,nfl-chi-sea-2026-11-03-spread-away-9pt5,nfl-chi-sea-2026-11-03-spread-away-8pt5,0.13,0.12,0.01,-0.005,20.0,,,
+2026-10-27T07:49:59+00:00,nfl-chi-sea-2026-11-03,cover_ladder,nfl-chi-sea-2026-11-03-spread-away-9pt5,nfl-chi-sea-2026-11-03-spread-away-8pt5,0.13,0.12,0.01,-0.005,20.0,,,
+2026-10-27T07:50:20+00:00,nfl-chi-sea-2026-11-03,cover_ladder,nfl-chi-sea-2026-11-03-spread-away-9pt5,nfl-chi-sea-2026-11-03-spread-away-8pt5,0.13,0.12,0.01,-0.005,20.0,,,
+2026-10-27T07:50:40+00:00,nfl-chi-sea-2026-11-03,cover_ladder,nfl-chi-sea-2026-11-03-spread-away-9pt5,nfl-chi-sea-2026-11-03-spread-away-8pt5,0.13,0.12,0.01,-0.005,20.0,,,
