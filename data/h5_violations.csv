@@ -65339,3 +65339,5 @@ ts,event_slug,check,strong_slug,weak_slug,bid_strong,ask_weak,gross_gap,net_gap,
 2026-10-30T03:27:50+00:00,cfb-flatl-ntx-2026-10-29,spread_implies_ml,cfb-flatl-ntx-2026-10-29-spread-away-2pt5,cfb-flatl-ntx-2026-10-29,0.01,0.005,0.005,0.0035,5.0,0.001,True,True
 2026-10-30T03:28:16+00:00,cfb-flatl-ntx-2026-10-29,spread_implies_ml,cfb-flatl-ntx-2026-10-29-spread-away-2pt5,cfb-flatl-ntx-2026-10-29,0.01,0.001,0.009,0.0079,5.0,0.009,True,True
 2026-10-30T03:28:42+00:00,cfb-flatl-ntx-2026-10-29,spread_implies_ml,cfb-flatl-ntx-2026-10-29-spread-away-2pt5,cfb-flatl-ntx-2026-10-29,0.01,0.001,0.009,0.0079,5.0,0.009,True,True
+2026-10-30T10:32:56+00:00,wta-eala-shnaide-2026-10-29,over_ladder,wta-eala-shnaide-2026-10-29-match-total-22pt5,wta-eala-shnaide-2026-10-29-match-total-21pt5,0.999,0.991,0.008,0.007,165.0,0.008,True,True
+2026-10-30T10:32:56+00:00,wta-eala-shnaide-2026-10-29,over_ladder,wta-eala-shnaide-2026-10-29-match-total-23pt5,wta-eala-shnaide-2026-10-29-match-total-21pt5,0.999,0.991,0.008,0.007,165.0,0.008,True,True
