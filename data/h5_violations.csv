@@ -65960,3 +65960,5 @@ ts,event_slug,check,strong_slug,weak_slug,bid_strong,ask_weak,gross_gap,net_gap,
 2026-10-31T03:31:29+00:00,nba-lal-gsw-2026-10-30,cover_ladder,nba-lal-gsw-2026-10-30-spread-away-29pt5,nba-lal-gsw-2026-10-30-spread-away-27pt5,0.01,0.009,0.001,-0.0009,5.0,,,
 2026-10-31T03:31:51+00:00,nba-den-phx-2026-10-30,cover_ladder,nba-den-phx-2026-10-30-spread-home-23pt5,nba-den-phx-2026-10-30-spread-home-21pt5,0.01,0.007,0.003,0.0013,5.0,-0.008,False,True
 2026-10-31T03:32:18+00:00,nba-den-phx-2026-10-30,cover_ladder,nba-den-phx-2026-10-30-spread-home-23pt5,nba-den-phx-2026-10-30-spread-home-21pt5,0.01,0.007,0.003,0.0013,5.0,0.003,True,True
+2026-10-31T05:50:19+00:00,cfb-kentst-sacst-2026-10-30,spread_implies_ml,cfb-kentst-sacst-2026-10-30-spread-away-4pt5,cfb-kentst-sacst-2026-10-30,0.01,0.008,0.002,0.0002,13.0,,False,True
+2026-10-31T05:53:14+00:00,cfb-kentst-sacst-2026-10-30,cover_ladder,cfb-kentst-sacst-2026-10-30-spread-home-13pt5,cfb-kentst-sacst-2026-10-30-spread-home-10pt5,0.769,0.767,0.002,-0.013,20.0,,,
