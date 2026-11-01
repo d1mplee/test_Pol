@@ -66860,3 +66860,6 @@ ts,event_slug,check,strong_slug,weak_slug,bid_strong,ask_weak,gross_gap,net_gap,
 2026-11-01T08:18:59+00:00,jap-zel-gam-2026-11-01-more-markets,over_ladder,jap-zel-gam-2026-11-01-total-5pt5,jap-zel-gam-2026-11-01-total-4pt5,0.002,0.001,0.001,0.0007,10.0,0.001,True,True
 2026-11-01T08:19:25+00:00,jap-zel-gam-2026-11-01-more-markets,over_ladder,jap-zel-gam-2026-11-01-total-5pt5,jap-zel-gam-2026-11-01-total-4pt5,0.002,0.001,0.001,0.0007,10.0,0.001,True,True
 2026-11-01T08:19:51+00:00,jap-zel-gam-2026-11-01-more-markets,over_ladder,jap-zel-gam-2026-11-01-total-5pt5,jap-zel-gam-2026-11-01-total-4pt5,0.002,0.001,0.001,0.0007,10.0,0.001,True,True
+2026-11-01T18:19:41+00:00,nfl-ari-dal-2026-11-01,cover_ladder,nfl-ari-dal-2026-11-01-spread-home-9pt5,nfl-ari-dal-2026-11-01-spread-home-8pt5,0.35,0.34,0.01,-0.005,87.5,,,
+2026-11-01T18:21:29+00:00,nfl-lv-nyj-2026-11-01,cover_ladder,nfl-lv-nyj-2026-11-01-1q-spread-home-4pt5,nfl-lv-nyj-2026-11-01-1q-spread-home-3pt5,0.1,0.06,0.04,0.0269,29.6,0.04,True,True
+2026-11-01T18:21:55+00:00,nfl-lv-nyj-2026-11-01,cover_ladder,nfl-lv-nyj-2026-11-01-1q-spread-home-4pt5,nfl-lv-nyj-2026-11-01-1q-spread-home-3pt5,0.1,0.06,0.04,0.0269,29.6,0.04,True,True
