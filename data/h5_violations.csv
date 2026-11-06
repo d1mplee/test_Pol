@@ -75403,3 +75403,11 @@ ts,event_slug,check,strong_slug,weak_slug,bid_strong,ask_weak,gross_gap,net_gap,
 2026-11-06T10:53:29+00:00,spl-kho-kha-2026-11-05-more-markets,over_ladder,spl-kho-kha-2026-11-05-total-8pt5,spl-kho-kha-2026-11-05-total-4pt5,0.52,0.5,0.02,0.005,0.7,0.02,True,True
 2026-11-06T10:53:29+00:00,spl-kho-kha-2026-11-05-more-markets,over_ladder,spl-kho-kha-2026-11-05-total-8pt5,spl-kho-kha-2026-11-05-total-5pt5,0.52,0.5,0.02,0.005,0.7,0.02,True,True
 2026-11-06T10:53:29+00:00,spl-kho-kha-2026-11-05-more-markets,over_ladder,spl-kho-kha-2026-11-05-total-8pt5,spl-kho-kha-2026-11-05-total-7pt5,0.52,0.51,0.01,-0.005,0.7,,,
+2026-11-06T16:06:29+00:00,nfl-cin-atl-2026-11-08,over_ladder,nfl-cin-atl-2026-11-08-total-28pt5,nfl-cin-atl-2026-11-08-total-24pt5,0.96,0.95,0.01,0.0014,5.0,0.01,True,True
+2026-11-06T16:06:57+00:00,nfl-cin-atl-2026-11-08,over_ladder,nfl-cin-atl-2026-11-08-total-28pt5,nfl-cin-atl-2026-11-08-total-24pt5,0.96,0.95,0.01,0.0014,5.0,0.01,True,True
+2026-11-06T16:07:25+00:00,nfl-cin-atl-2026-11-08,over_ladder,nfl-cin-atl-2026-11-08-total-28pt5,nfl-cin-atl-2026-11-08-total-24pt5,0.96,0.95,0.01,0.0014,5.0,0.01,True,True
+2026-11-06T16:07:52+00:00,nfl-cin-atl-2026-11-08,over_ladder,nfl-cin-atl-2026-11-08-total-28pt5,nfl-cin-atl-2026-11-08-total-24pt5,0.96,0.95,0.01,0.0014,5.0,0.01,True,True
+2026-11-06T16:08:19+00:00,nfl-cin-atl-2026-11-08,over_ladder,nfl-cin-atl-2026-11-08-total-28pt5,nfl-cin-atl-2026-11-08-total-24pt5,0.96,0.95,0.01,0.0014,5.0,0.01,True,True
+2026-11-06T16:08:46+00:00,nfl-cin-atl-2026-11-08,over_ladder,nfl-cin-atl-2026-11-08-total-28pt5,nfl-cin-atl-2026-11-08-total-24pt5,0.96,0.95,0.01,0.0014,5.0,0.01,True,True
+2026-11-06T16:09:14+00:00,nfl-cin-atl-2026-11-08,over_ladder,nfl-cin-atl-2026-11-08-total-28pt5,nfl-cin-atl-2026-11-08-total-24pt5,0.96,0.95,0.01,0.0014,5.0,0.01,True,True
+2026-11-06T16:09:41+00:00,nfl-cin-atl-2026-11-08,over_ladder,nfl-cin-atl-2026-11-08-total-28pt5,nfl-cin-atl-2026-11-08-total-24pt5,0.96,0.95,0.01,0.0014,5.0,-0.03,False,True
