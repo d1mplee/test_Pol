@@ -75501,3 +75501,14 @@ ts,event_slug,check,strong_slug,weak_slug,bid_strong,ask_weak,gross_gap,net_gap,
 2026-11-07T04:12:36+00:00,cfb-nmx-nevada-2026-11-06,spread_implies_ml,cfb-nmx-nevada-2026-11-06-spread-away-1pt5,cfb-nmx-nevada-2026-11-06,0.99,0.988,0.002,-0.0002,10.0,,,
 2026-11-07T04:19:31+00:00,cfb-nmx-nevada-2026-11-06,cover_ladder,cfb-nmx-nevada-2026-11-06-spread-away-4pt5,cfb-nmx-nevada-2026-11-06-spread-away-3pt5,0.99,0.987,0.003,0.0007,10.0,,False,True
 2026-11-07T04:19:31+00:00,cfb-nmx-nevada-2026-11-06,cover_ladder,cfb-nmx-nevada-2026-11-06-spread-away-5pt5,cfb-nmx-nevada-2026-11-06-spread-away-3pt5,0.99,0.987,0.003,0.0007,10.0,,False,True
+2026-11-07T05:56:09+00:00,nba-por-lal-2026-11-06,spread_implies_ml,nba-por-lal-2026-11-06-spread-away-1pt5,nba-por-lal-2026-11-06,0.04,0.036,0.004,-0.0033,77.8,,,
+2026-11-07T06:02:40+00:00,nba-por-lal-2026-11-06,spread_implies_ml,nba-por-lal-2026-11-06-spread-away-1pt5,nba-por-lal-2026-11-06,0.002,0.001,0.001,0.0007,70.3,0.001,True,True
+2026-11-07T06:24:01+00:00,cfb-tcu-arz-2026-11-06,spread_implies_ml,cfb-tcu-arz-2026-11-06-spread-home-1pt5,cfb-tcu-arz-2026-11-06,0.51,0.5,0.01,-0.005,788.0,,,
+2026-11-07T06:34:27+00:00,cfb-tcu-arz-2026-11-06,cover_ladder,cfb-tcu-arz-2026-11-06-spread-home-10pt5,cfb-tcu-arz-2026-11-06-spread-home-8pt5,0.012,0.01,0.002,-0.0002,10.0,,,
+2026-11-07T06:46:41+00:00,cfb-tcu-arz-2026-11-06,cover_ladder,cfb-tcu-arz-2026-11-06-spread-away-6pt5,cfb-tcu-arz-2026-11-06-spread-away-5pt5,0.37,0.36,0.01,-0.005,1358.0,,,
+2026-11-07T06:47:03+00:00,cfb-tcu-arz-2026-11-06,cover_ladder,cfb-tcu-arz-2026-11-06-spread-away-6pt5,cfb-tcu-arz-2026-11-06-spread-away-5pt5,0.37,0.36,0.01,-0.005,1518.2,,,
+2026-11-07T07:04:25+00:00,cfb-tcu-arz-2026-11-06,cover_ladder,cfb-tcu-arz-2026-11-06-spread-home-5pt5,cfb-tcu-arz-2026-11-06-spread-home-3pt5,0.011,0.01,0.001,-0.0011,36.0,,,
+2026-11-07T07:04:25+00:00,cfb-tcu-arz-2026-11-06,cover_ladder,cfb-tcu-arz-2026-11-06-spread-home-7pt5,cfb-tcu-arz-2026-11-06-spread-home-6pt5,0.01,0.009,0.001,-0.0009,15.0,,,
+2026-11-07T07:04:47+00:00,cfb-tcu-arz-2026-11-06,cover_ladder,cfb-tcu-arz-2026-11-06-spread-home-7pt5,cfb-tcu-arz-2026-11-06-spread-home-6pt5,0.01,0.008,0.002,0.0002,76.0,-0.005,False,True
+2026-11-07T07:05:13+00:00,cfb-tcu-arz-2026-11-06,cover_ladder,cfb-tcu-arz-2026-11-06-spread-home-5pt5,cfb-tcu-arz-2026-11-06-spread-home-2pt5,0.011,0.01,0.001,-0.0011,200.0,,,
+2026-11-07T07:06:18+00:00,cfb-tcu-arz-2026-11-06,cover_ladder,cfb-tcu-arz-2026-11-06-spread-away-2pt5,cfb-tcu-arz-2026-11-06-spread-away-1pt5,0.011,0.01,0.001,-0.0011,444.0,,,
