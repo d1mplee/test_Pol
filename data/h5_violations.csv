@@ -92346,3 +92346,15 @@ ts,event_slug,check,strong_slug,weak_slug,bid_strong,ask_weak,gross_gap,net_gap,
 2026-11-24T05:05:41+00:00,nba-uta-lal-2026-11-23,over_ladder,nba-uta-lal-2026-11-23-total-250pt5,nba-uta-lal-2026-11-23-total-244pt5,0.01,0.009,0.001,-0.0009,1.0,,,
 2026-11-24T05:05:41+00:00,nba-uta-lal-2026-11-23,over_ladder,nba-uta-lal-2026-11-23-total-250pt5,nba-uta-lal-2026-11-23-total-246pt5,0.01,0.008,0.002,0.0002,1.0,0.0,False,True
 2026-11-24T05:05:41+00:00,nba-uta-lal-2026-11-23,over_ladder,nba-uta-lal-2026-11-23-total-250pt5,nba-uta-lal-2026-11-23-total-248pt5,0.01,0.007,0.003,0.0013,1.0,0.0,False,True
+2026-11-24T23:05:35+00:00,cbb-miss-byu-2026-11-24,spread_implies_ml,cbb-miss-byu-2026-11-24-spread-away-1pt5,cbb-miss-byu-2026-11-24,0.999,0.998,0.001,0.0007,9.0,0.001,True,True
+2026-11-24T23:05:35+00:00,cbb-miss-byu-2026-11-24,spread_implies_ml,cbb-miss-byu-2026-11-24-spread-away-2pt5,cbb-miss-byu-2026-11-24,0.999,0.998,0.001,0.0007,9.0,0.001,True,True
+2026-11-24T23:05:35+00:00,cbb-miss-byu-2026-11-24,spread_implies_ml,cbb-miss-byu-2026-11-24-spread-away-4pt5,cbb-miss-byu-2026-11-24,0.999,0.998,0.001,0.0007,9.0,0.001,True,True
+2026-11-24T23:05:35+00:00,cbb-miss-byu-2026-11-24,spread_implies_ml,cbb-miss-byu-2026-11-24-spread-away-6pt5,cbb-miss-byu-2026-11-24,0.999,0.998,0.001,0.0007,9.0,0.001,True,True
+2026-11-24T23:05:35+00:00,cbb-miss-byu-2026-11-24,spread_implies_ml,cbb-miss-byu-2026-11-24-spread-away-8pt5,cbb-miss-byu-2026-11-24,0.999,0.998,0.001,0.0007,9.0,0.001,True,True
+2026-11-25T02:48:08+00:00,cfb-kentst-emich-2026-11-24,spread_implies_ml,cfb-kentst-emich-2026-11-24-spread-home-1pt5,cfb-kentst-emich-2026-11-24,0.75,0.74,0.01,-0.005,630.0,,,
+2026-11-25T03:25:52+00:00,nba-dal-den-2026-11-24,over_ladder,nba-dal-den-2026-11-24-total-234pt5,nba-dal-den-2026-11-24-total-233pt5,0.29,0.27,0.02,0.005,5.0,-0.03,False,True
+2026-11-25T03:35:19+00:00,nhl-las-edm-2026-11-24,cover_ladder,nhl-las-edm-2026-11-24-spread-home-2pt5,nhl-las-edm-2026-11-24-spread-home-1pt5,0.01,0.009,0.001,-0.0009,0.9,,,
+2026-11-25T03:35:41+00:00,nhl-las-edm-2026-11-24,cover_ladder,nhl-las-edm-2026-11-24-spread-home-2pt5,nhl-las-edm-2026-11-24-spread-home-1pt5,0.01,0.009,0.001,-0.0009,0.9,,,
+2026-11-25T03:36:04+00:00,nhl-las-edm-2026-11-24,cover_ladder,nhl-las-edm-2026-11-24-spread-home-2pt5,nhl-las-edm-2026-11-24-spread-home-1pt5,0.01,0.009,0.001,-0.0009,0.9,,,
+2026-11-25T03:36:26+00:00,nhl-las-edm-2026-11-24,cover_ladder,nhl-las-edm-2026-11-24-spread-home-2pt5,nhl-las-edm-2026-11-24-spread-home-1pt5,0.01,0.009,0.001,-0.0009,0.9,,,
+2026-11-25T03:36:48+00:00,nhl-las-edm-2026-11-24,cover_ladder,nhl-las-edm-2026-11-24-spread-home-2pt5,nhl-las-edm-2026-11-24-spread-home-1pt5,0.01,0.009,0.001,-0.0009,0.9,,,
